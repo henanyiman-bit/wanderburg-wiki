@@ -4,7 +4,7 @@ import Icon from '../components/icons/Icon.astro';
 import {game,pages} from '../lib/data';
 interface Props { pageTitle?:string; title:string; description:string; kind?:string; noindex?:boolean; updated?:string; items?:{name:string;url:string}[] }
 const {pageTitle,title,description:inputDescription,kind='WebPage',noindex=false,updated=game.updated,items=[]}=Astro.props;
-const path=Astro.url.pathname;const origin=Astro.site||new URL('http://localhost:4321');const canonical=new URL(path,origin).href;
+const path=Astro.url.pathname;const origin=Astro.site||new URL('https://wanderburg.ymmyi.wiki');const canonical=new URL(path,origin).href;
 const metadata=pages.find(p=>'/'+p.slug+'/'===path);
 const description=metadata?.seoDescription||inputDescription;
 const seoTitle=pageTitle||metadata?.seoTitle||(title==='Wanderburg'? 'Wanderburg Wiki, Database & Guides | Fortress Portal': title.length<39?title+' | Independent Fortress Field Guide':title+' | Wanderburg');
