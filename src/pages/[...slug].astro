@@ -1,0 +1,36 @@
+---
+import EntityGuide from '../components/wiki/EntityGuide.astro';
+import entityGuides from '../data/entity-guides.json';
+import PageMediaBlock from '../components/media/PageMediaBlock.astro';
+import Base from '../layouts/Base.astro';
+import {pages,database,game,updates,categoryURL,entityURL} from '../lib/data';
+import {getCollection,render} from 'astro:content';
+import PageContent from '../components/wiki/PageContent.astro';
+import Facts from '../components/wiki/Facts.astro';
+import FAQ from '../components/wiki/FAQ.astro';
+import Related from '../components/wiki/Related.astro';
+import Explorer from '../components/database/Explorer.astro';
+import AdSlot from '../components/ads/AdSlot.astro';
+export function getStaticPaths(){return [...pages.map(page=>({params:{slug:page.slug},props:{page,entity:null,type:null}})),...Object.entries(database).flatMap(([type,entries])=>entries.map(entity=>({params:{slug:entityURL(type,entity.slug).slice(1,-1)},props:{page:{slug:entityURL(type,entity.slug).slice(1,-1),title:entity.name,description:entity.summary,eyebrow:type,kind:'entity',updated:entity.updated,noindex:false,keyword:entity.name,intent:entity.slug},entity,type}})))];}
+const {page,entity,type}=Astro.props;
+const entityCopy=entity?(entityGuides as Record<string,{intro:string}>)[entity.slug]:null;
+const entityTypeNames:Record<string,string>={modules:'Module',captains:'Captain',artifacts:'Artifact',vehicles:'Vehicle',biomes:'Biome'};
+const entitySeoTitle=entity?`${entity.name} - Wanderburg ${entityTypeNames[type!]} Guide & Uses`:undefined;
+const entry=page.kind==='guide'?(await getCollection('guides')).find(e=>e.id===page.slug.split('/').at(-1)):undefined;
+const rendered=entry?await render(entry):null;const Content=rendered?.Content;
+const category=page.slug==='bosses'?'bosses':page.slug.split('/').at(-1);
+const isHub=['hub','database','category','ranking','updates'].includes(page.kind);
+const items=(page.kind==='category'?database[category||'']||[]:[]).map(e=>({name:e.name,url:entityURL(category!,e.slug)}));
+if(!items.length&&isHub)items.push(...pages.filter(p=>p.slug!==page.slug&&(p.slug.startsWith(page.slug+'/')||page.kind==='database'&&p.kind==='category')).map(p=>({name:p.title,url:'/'+p.slug+'/'})));
+---
+<Base title={page.title} pageTitle={entitySeoTitle} description={entityCopy?.intro||page.description} updated={page.updated} noindex={page.noindex} kind={isHub?'CollectionPage':['guide','wiki','entity'].includes(page.kind)?'Article':'WebPage'} items={items}>
+<section class="page-hero"><span class="eyebrow">{page.eyebrow}</span><h1>{page.title}</h1><p>{entityCopy?.intro||page.description}</p><span class="date">Updated <time datetime={page.updated}>{page.updated}</time> · Independent field guide</span></section>
+{page.kind==='guide'&&entry&&Content&&<div class="article-layout"><aside class="toc"><strong>ON THIS PAGE</strong><a href="#quick-answer">Quick answer</a>{rendered!.headings.map((h,i)=><a href={'#step-'+(i+1)}>{h.text}</a>)}<a href="#related">Related guides</a><a href="#questions">Questions</a></aside><article><div class="quick-answer" id="quick-answer"><h2>Quick answer</h2><p>{entry.data.quickAnswer}</p></div><Content/><div class="tip"><strong>Field tip · </strong>{entry.data.tip}</div><div class="warning"><strong>Early Access · </strong>{entry.data.warning}</div><AdSlot/><Related current={page.slug}/><section id="questions" class="section"><h2>Guide questions</h2><FAQ page={page.slug} compact/></section></article></div>}
+{page.kind==='wiki'&&<div class="article-layout"><aside class="toc"><strong>IN THE FIELD NOTES</strong><a href="#overview">Game overview</a><a href="#facts">Quick facts</a><a href="#archive">Archive map</a><a href="#related">Related guides</a></aside><article><div id="overview" class="quick-answer"><h2>The short answer</h2><p>Use this hub to connect the game’s moving-fortress combat, equipment choices, unlock systems, and region difficulties.</p></div><section id="facts" class="step-card"><h2>At a glance</h2><Facts/></section><section id="archive"><h2>Explore the Wiki</h2><p>Start with a practical guide, explore equipment and characters in the database, or catch up on the changes affecting your next run.</p><div class="table-wrap"><table><thead><tr><th>Looking for</th><th>Go to</th></tr></thead><tbody><tr><td>A first-run starting point</td><td><a href="/guides/beginner-guide/">Beginner guide →</a></td></tr><tr><td>Named items and characters</td><td><a href="/database/">Database →</a></td></tr><tr><td>Game updates</td><td><a href="/updates/">Updates →</a></td></tr></tbody></table></div></section><PageContent slug={page.slug}/><AdSlot/><Related/><FAQ page={page.slug} compact/></article></div>}
+{page.kind==='hub'&&<><div class="cards">{pages.filter(p=>p.kind==='guide').map(p=><a class="card" href={'/'+p.slug+'/'}><span class="eyebrow">FIELD GUIDE</span><h2>{p.title.replace('Wanderburg ','')}</h2><p>{p.description}</p><span class="card-link">Read guide →</span></a>)}</div><PageContent slug={page.slug}/><Related/></>}
+{['database','category'].includes(page.kind)&&<><Explorer type={page.kind==='category'?category:undefined}/><PageContent slug={page.slug}/>{page.kind==='category'&&<section class="section"><h2>Category questions</h2><FAQ page={page.slug}/></section>}<AdSlot/><Related/></>}
+{page.kind==='ranking'&&<><PageContent slug={page.slug}/><section class="section"><h2>Comparison questions</h2><FAQ page={page.slug}/></section><Related/></>}
+{page.kind==='updates'&&<><PageContent slug={page.slug}/>{updates.map(u=><article class="step-card" id={u.slug}><span class="eyebrow">OFFICIAL UPDATE · <time datetime={u.date}>{u.date}</time> UTC</span><h2>{u.title}</h2><p>{u.summary}</p><small>Patch notes · updated {game.updated}</small><div class="content-links">{u.related.map(url=><a href={url}>{url.split('/').filter(Boolean).at(-1)?.replaceAll('-',' ')} →</a>)}</div></article>)}<Related/></>}
+{entity&&<EntityGuide entity={entity} type={type!}/>}
+{page.kind==='info'&&<div class="info-content"><PageContent slug={page.slug}/>{page.slug==='faq'&&<FAQ page="faq"/>}<Related/></div>}
+{!entity&&<PageMediaBlock page={"/"+page.slug+"/"}/>}</Base>

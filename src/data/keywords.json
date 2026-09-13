@@ -1,0 +1,220 @@
+[
+  {
+    "url": "/",
+    "primary": "wanderburg",
+    "secondary": [
+      "wanderburg wiki",
+      "wanderburg guides",
+      "wanderburg database"
+    ],
+    "intent": "discover the game portal"
+  },
+  {
+    "url": "/wiki/",
+    "primary": "wanderburg wiki",
+    "secondary": [
+      "castle growth",
+      "game systems"
+    ],
+    "intent": "understand game systems"
+  },
+  {
+    "url": "/guides/",
+    "primary": "wanderburg guides",
+    "secondary": [
+      "beginner tips",
+      "combat guides"
+    ],
+    "intent": "choose a guide"
+  },
+  {
+    "url": "/guides/beginner-guide/",
+    "primary": "wanderburg beginner guide",
+    "secondary": [
+      "first run",
+      "survival tips"
+    ],
+    "intent": "guides/beginner-guide"
+  },
+  {
+    "url": "/guides/best-build/",
+    "primary": "best wanderburg builds and build principles",
+    "secondary": [
+      "captain synergy",
+      "module combinations"
+    ],
+    "intent": "guides/best-build"
+  },
+  {
+    "url": "/guides/progression/",
+    "primary": "wanderburg progression guide",
+    "secondary": [
+      "permanent unlocks",
+      "artifact rerolls"
+    ],
+    "intent": "guides/progression"
+  },
+  {
+    "url": "/guides/controls/",
+    "primary": "wanderburg controls guide",
+    "secondary": [
+      "controller support",
+      "keyboard controls"
+    ],
+    "intent": "guides/controls"
+  },
+  {
+    "url": "/database/",
+    "primary": "wanderburg database",
+    "secondary": [
+      "game records",
+      "equipment catalogue"
+    ],
+    "intent": "browse verified game records"
+  },
+  {
+    "url": "/database/modules/",
+    "primary": "wanderburg modules",
+    "secondary": [
+      "module abilities",
+      "active attacks"
+    ],
+    "intent": "database/modules"
+  },
+  {
+    "url": "/database/captains/",
+    "primary": "wanderburg captains",
+    "secondary": [
+      "captain abilities",
+      "captain tradeoffs"
+    ],
+    "intent": "database/captains"
+  },
+  {
+    "url": "/database/artifacts/",
+    "primary": "wanderburg artifacts",
+    "secondary": [
+      "Electric Arrow",
+      "Phoenix Feather"
+    ],
+    "intent": "database/artifacts"
+  },
+  {
+    "url": "/database/weapons/",
+    "primary": "wanderburg weapons and offensive modules",
+    "secondary": [
+      "offensive modules",
+      "weapon abilities"
+    ],
+    "intent": "database/weapons"
+  },
+  {
+    "url": "/database/vehicles/",
+    "primary": "wanderburg vehicles",
+    "secondary": [
+      "Tower vehicle",
+      "Spider vehicle"
+    ],
+    "intent": "database/vehicles"
+  },
+  {
+    "url": "/database/biomes/",
+    "primary": "wanderburg biomes",
+    "secondary": [
+      "Grassland",
+      "Dark Forest",
+      "Desert"
+    ],
+    "intent": "database/biomes"
+  },
+  {
+    "url": "/bosses/",
+    "primary": "wanderburg bosses and encounter preparation",
+    "secondary": [
+      "boss preparation",
+      "encounter rewards"
+    ],
+    "intent": "bosses"
+  },
+  {
+    "url": "/tier-list/",
+    "primary": "wanderburg tier lists",
+    "secondary": [
+      "comparison criteria",
+      "Early Access balance"
+    ],
+    "intent": "understand ranking criteria"
+  },
+  {
+    "url": "/tier-list/captains/",
+    "primary": "wanderburg captain tier list",
+    "secondary": [
+      "best captain",
+      "captain comparison"
+    ],
+    "intent": "compare captain tradeoffs"
+  },
+  {
+    "url": "/tier-list/modules/",
+    "primary": "wanderburg module tier list",
+    "secondary": [
+      "best modules",
+      "module comparison"
+    ],
+    "intent": "compare module roles"
+  },
+  {
+    "url": "/updates/",
+    "primary": "wanderburg updates and patch notes",
+    "secondary": [
+      "patch notes",
+      "hotfix 0.9.10"
+    ],
+    "intent": "updates"
+  },
+  {
+    "url": "/faq/",
+    "primary": "wanderburg faq",
+    "secondary": [
+      "multiplayer",
+      "console release"
+    ],
+    "intent": "faq"
+  },
+  {
+    "url": "/about/",
+    "primary": "about wanderburg field guide",
+    "secondary": [
+      "fan site",
+      "editorial sources"
+    ],
+    "intent": "about"
+  },
+  {
+    "url": "/contact/",
+    "primary": "contact and corrections",
+    "secondary": [
+      "content corrections",
+      "contact channel"
+    ],
+    "intent": "contact"
+  },
+  {
+    "url": "/privacy/",
+    "primary": "privacy policy",
+    "secondary": [
+      "local search privacy",
+      "YouTube privacy"
+    ],
+    "intent": "privacy"
+  },
+  {
+    "url": "/terms/",
+    "primary": "terms of use",
+    "secondary": [
+      "informational use",
+      "intellectual property"
+    ],
+    "intent": "terms"
+  }
+]

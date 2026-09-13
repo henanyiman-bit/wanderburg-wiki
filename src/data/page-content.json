@@ -1,0 +1,1818 @@
+{
+  "wiki": {
+    "sections": [
+      {
+        "title": "A fortress is both your character and your vehicle",
+        "paragraphs": [
+          "Wanderburg makes movement part of the build. The castle carries the equipment, but it also determines where that equipment is brought into a fight. You are not placing a stationary base and waiting for enemies to arrive. You must steer through a moving ecosystem and judge which targets you can safely approach.",
+          "The official press kit describes a procedurally generated map, module upgrades, and further castle growth after defeating bosses. This is why a familiar-looking field is not a fixed route to memorize. Use the current surroundings to choose a path rather than following a coordinate list from another run.",
+          "The central idea is a character that occupies the world as a growing fortress. Consumption and fighting belong to the same journey: moving toward something also exposes the castle to whatever is nearby. Thinking only about the next upgrade misses this spatial part of play. Thinking only about driving misses the equipment decisions that determine what you can accomplish once you arrive.",
+          "For a new player, the useful overview is therefore a loop of observation, approach, action, and reassessment. That is our way of explaining the game, not a named sequence of official stages. Observe the nearby targets, choose an approach, use the tools available, then reconsider the surroundings after the situation changes. A plan can remain sensible even when the route itself must change."
+        ],
+        "links": [
+          {
+            "label": "Learn the first-run loop",
+            "url": "/guides/beginner-guide/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "How the systems fit together",
+        "paragraphs": [
+          "During a run, focus on movement, the equipment you are using, and the next fight. Between runs, additional unlocked choices expand the set of strategies you can try. More options are useful, but they are not proof that every later choice is better than every earlier one.",
+          "Vehicles and modules answer different questions even though they appear together on the same castle. A vehicle is the player platform; a module supplies equipment. Changing the platform can alter the experience of delivering an attack without changing what the attack is supposed to do. Tower and Spider are player vehicles, while an enemy that happens to move is not automatically an unlockable vehicle.",
+          "This distinction helps explain a common confusing result: a familiar attack may feel less dependable on an unfamiliar setup. Before concluding that the module became weaker, consider whether the approach, selected character rule, or vehicle handling changed. The vehicle database covers platform changes; the controls guide helps separate those changes from input configuration."
+        ],
+        "links": [
+          {
+            "label": "Vehicle handling records",
+            "url": "/database/vehicles/"
+          },
+          {
+            "label": "Input setup",
+            "url": "/guides/controls/"
+          }
+        ],
+        "table": {
+          "headers": [
+            "System",
+            "What it answers",
+            "Where to look"
+          ],
+          "rows": [
+            [
+              "Modules",
+              "What can this fortress do in combat?",
+              "Automatic attacks and active abilities"
+            ],
+            [
+              "Captains",
+              "Which character rules or drawbacks apply?",
+              "Current captain description"
+            ],
+            [
+              "Artifacts",
+              "Which additional effect or interaction is involved?",
+              "Artifact tooltip and version"
+            ],
+            [
+              "Vehicles",
+              "How does the chosen platform handle?",
+              "Base behavior and upgrades"
+            ],
+            [
+              "Biomes",
+              "Which environment and difficulty am I entering?",
+              "Region name and difficulty label"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Modules, weapons, and active decisions",
+        "paragraphs": [
+          "Modules are the main equipment records in this archive. Official notes distinguish automatic attacks from active abilities, sometimes changing one without strengthening the other. A module therefore needs more context than a single damage label.",
+          "Weapons are covered as offensive modules, not as duplicate copies of every module record. Defensive utility also matters: Force Mage’s projectile cancellation is a capability that a pure damage comparison would miss.",
+          "Consider two questions when reading about equipment: what happens without an active command, and what additional action becomes available? Release-week balance changes demonstrate why these should stay separate. An improvement to one part can matter greatly to a player who uses it frequently while doing little for a player whose attention is occupied by steering.",
+          "For an overview of a build, describe the job of each choice before naming a favorite combination. One action might supply the offense you rely on; another might answer a specific incoming threat. This functional description remains useful when an exact value changes."
+        ],
+        "links": [
+          {
+            "label": "Modules database",
+            "url": "/database/modules/"
+          },
+          {
+            "label": "Weapons and offensive modules",
+            "url": "/database/weapons/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Captains and artifacts are different questions",
+        "paragraphs": [
+          "Captains shape your playstyle through character rules and tradeoffs. Artifacts add effects to build around. Start with the captain’s rule, then choose equipment and artifact triggers that suit the actions you use most.",
+          "A captain can impose a drawback that changes how you should approach a run. The currently captain records include Nitro, boosting, cooldown, cannon, and gold penalties.",
+          "Artifacts deserve equally careful reading. A fix naming Phoenix Feather and Valkyrie confirms an interaction, but does not by itself reveal its trigger, strength, or a guaranteed build combination. Check the individual record before treating an interaction as a recommendation.",
+          "The distinction is useful at selection time. With a captain, you are asking how a character-specific rule affects the way you intend to play. With an artifact, you are asking which effect applies and under what conditions. Neither should be treated as an interchangeable bonus simply because both are available through wider progression.",
+          "A practical reading order is to understand the chosen captain, inspect the equipment you expect to use, and then check any proposed artifact interaction against its actual description. If one part of that explanation is missing, keep the combination provisional."
+        ],
+        "links": [
+          {
+            "label": "Captains",
+            "url": "/database/captains/"
+          },
+          {
+            "label": "Artifacts",
+            "url": "/database/artifacts/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Regions, encounters, and difficulty",
+        "paragraphs": [
+          "Grassland, Dark Forest, and Desert are region names. Patch notes also refer to difficulty variants and overtime. A region name alone does not describe the conditions of a run; record the difficulty and whether you continued into overtime.",
+          "Bosses are part of castle growth, but an enemy mentioned by name in a fix is not automatically a boss.",
+          "Environment is also context for interpreting advice. The Dark Forest composition change illustrates the problem: fewer opponents and weaker opposition are not equivalent descriptions. Look at the conditions behind a recommendation rather than judging the scene only by how busy it appears.",
+          "For major encounters, this hub establishes their place in the game, while the boss page concentrates on preparing and recovering from an engagement. Where a named enemy is but its boss status is unresolved, that uncertainty remains attached to the name.",
+          "Boss victories expand the castle further. Prepare abilities and an exit before committing to a large fortress, then reassess your surroundings after the fight. Visit the encounter guide for a practical preparation sequence."
+        ],
+        "links": [
+          {
+            "label": "Biomes",
+            "url": "/database/biomes/"
+          },
+          {
+            "label": "Boss preparation",
+            "url": "/bosses/"
+          },
+          {
+            "label": "Vehicles",
+            "url": "/database/vehicles/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Progression now includes unlock-based rerolls",
+        "paragraphs": [
+          "Hotfix 0.9.10 connects the number of unlocked modules and artifacts to additional rerolls. This gives collection progress an effect beyond simply making another item available.",
+          "A September launch-week guide can already describe behavior that changed in a later hotfix.",
+          "There are three different reasons to begin another attempt: practice the execution of a familiar plan, explore an unlocked option, or pursue a different challenge. Choosing one makes the outcome easier to interpret. An attempt that teaches you a new vehicle can be useful even if it does not also establish that vehicle as your strongest choice.",
+          "Use this knowledge map as a starting point rather than a checklist that must be read in order. The beginner guide is for immediate decisions while learning. Progression explains the relationship between attempts. The database is for checking a specific identity or behavior, and the update archive explains why older advice may no longer describe the same game.",
+          "For build planning, begin with dependable offense, add a response to incoming threats, and choose artifact interactions that fit your actions. The build guide develops these approaches; the tier pages help prioritize choices for beginners, ability-focused play, and more demanding runs."
+        ],
+        "links": [
+          {
+            "label": "Progression guide",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "updates",
+            "url": "/updates/"
+          },
+          {
+            "label": "Build systems",
+            "url": "/guides/best-build/"
+          },
+          {
+            "label": "Tier lists",
+            "url": "/tier-list/"
+          },
+          {
+            "label": "Game questions",
+            "url": "/faq/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Is this wiki a complete item roster?",
+        "No. It publishes the names and facts that can currently be traced to official material. Missing effect values are omitted, not treated as zero."
+      ],
+      [
+        "Where should I check a current build claim?",
+        "Start with the module or captain record, then read the relevant update. A strong old demonstration does not establish the same result after a balance change."
+      ]
+    ]
+  },
+  "guides": {
+    "sections": [
+      {
+        "title": "Choose the guide for the decision in front of you",
+        "paragraphs": [
+          "If you have not finished a comfortable first run, begin with movement, consumption, and choosing fights. If you already understand those, the build guide helps separate a damage problem from a handling problem. Progression and controls each have their own coverage so you do not have to reread the same introductory advice.",
+          "Choose by the problem you can describe, not by the longest article or the most ambitious title. Someone who cannot comfortably leave a fight needs a different starting point from someone who clears familiar encounters but wants to compare equipment. You can move between guides as that question changes; there is no requirement to finish every page before playing.",
+          "The route suggestions here are editorial reading paths. They do not represent an official tutorial order or an unlock prerequisite. Each path ends with something practical to check in the game, so reading has a clear purpose rather than becoming another collection task."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Guide category",
+            "Question it covers",
+            "Existing coverage"
+          ],
+          "rows": [
+            [
+              "Beginner",
+              "What should I pay attention to first?",
+              "Beginner guide"
+            ],
+            [
+              "Build and combat",
+              "Why does this setup fail in a fight?",
+              "Build principles and boss preparation"
+            ],
+            [
+              "Progression",
+              "What changes between attempts?",
+              "Progression guide"
+            ],
+            [
+              "Controls",
+              "Is this handling or a binding issue?",
+              "Controls guide"
+            ],
+            [
+              "Modules and captains",
+              "What does this documented change mean?",
+              "Database records"
+            ],
+            [
+              "Bosses and biomes",
+              "What conditions am I comparing?",
+              "Encounter and biome hubs"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Beginner and survival reading",
+        "paragraphs": [
+          "The beginner guide moves from steering and target selection to equipment, Nitro, and avoiding premature fights. It gives practical priorities without assuming a particular unlocked captain or promising a guaranteed route.",
+          "For combat preparation, pair it with the boss hub. That page discusses identifying an opening, keeping an escape route, and distinguishing a normal clear from overtime survival.",
+          "For a first session, read the beginner guide through movement and target selection, then try those ideas with equipment you already have. Return to its module and captain sections when those decisions become relevant. The immediate learning goal is to recognize why an approach worked or failed, rather than reproduce a complete loadout from memory.",
+          "If ordinary movement feels manageable but larger enemies cause trouble, read encounter preparation next. Use it to review ability availability and the position in which an attack leaves you. If the difficulty instead begins before combat, follow the controls page first. Practicing an uncomfortable input setup for longer is a different issue from choosing a weak offensive option."
+        ],
+        "links": [
+          {
+            "label": "Beginner guide",
+            "url": "/guides/beginner-guide/"
+          },
+          {
+            "label": "Boss preparation",
+            "url": "/bosses/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Build, module, and captain reading",
+        "paragraphs": [
+          "The build guide describes candidate approaches rather than a fabricated best-in-slot list. Use it when deciding whether you need reliable offense, an active-ability emphasis, or more room to recover from a positioning error.",
+          "Module and captain records supply the narrow facts behind that reasoning. For example, a cooldown drawback is relevant when evaluating a setup that depends on an active ability; it does not prove the captain is bad in every setup.",
+          "For an established player, start the build guide with one concrete question: are attacks hard to apply, are useful actions unavailable when needed, or is recovery after a mistake the limiting factor? Follow the relevant module link to establish the capability. Then use the comparison pages to weigh that capability against the demands of your intended run.",
+          "A returning player can take a shorter path through the update archive before revisiting a favorite setup. If the named change concerns an active ability, reread that part of the equipment description. If it concerns a captain penalty, review the complete character rule. A patch headline alone rarely answers whether your previous reason for choosing something still holds."
+        ],
+        "links": [
+          {
+            "label": "Build principles",
+            "url": "/guides/best-build/"
+          },
+          {
+            "label": "Modules",
+            "url": "/database/modules/"
+          },
+          {
+            "label": "Captains",
+            "url": "/database/captains/"
+          },
+          {
+            "label": "Evaluate module priorities",
+            "url": "/tier-list/modules/"
+          },
+          {
+            "label": "Read version changes",
+            "url": "/updates/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Progression, controls, and region reading",
+        "paragraphs": [
+          "The progression guide separates unlocks, rerolls, achievements, and difficulty. The controls guide covers supported devices and the alternative driving style added after launch, without guessing keyboard mappings.",
+          "Biome records explain which environment or difficulty a patch actually names. Keep that context when comparing your own result with a video: a region, a difficulty variant, and overtime are different pieces of information.",
+          "Use progression when the uncertainty is about what the next attempt should accomplish. It separates an unlock, a reroll reward, an achievement, and an ordinary run result. Keep combat execution questions in the beginner or build guide instead; the progression page is most useful when deciding what kind of progress you are trying to make.",
+          "Use controls when an action behaves differently from what you expect. Bring the device, vehicle, captain, and version into that investigation. If a maneuver works comfortably in open space but fails around threats, move back to combat preparation rather than assuming a different button mapping must solve it.",
+          "For a new region or difficulty, pair biome context with the guide that addresses your present weakness. The environment page tells you what the reviewed notes actually distinguish. The practical guide helps you decide what to observe next. After an attempt, return to the page that answers the new question instead of rereading the entire archive."
+        ],
+        "links": [
+          {
+            "label": "Progression",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "Controls",
+            "url": "/guides/controls/"
+          },
+          {
+            "label": "Biomes",
+            "url": "/database/biomes/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "database": {
+    "sections": [
+      {
+        "title": "Use the archive to answer a specific question",
+        "paragraphs": [
+          "Browse modules, captains, artifacts, vehicles, and biomes to plan your next run. Search by name or narrow the category, then open an entry for its description and related gameplay advice.",
+          "Browse by category to find a name, then open its record for the version, known behavior, and related guidance. Search and sorting work across the published entries. An empty numerical field is deliberately hidden; it is not a claim that the value is zero.",
+          "The archive is designed for comparison, but comparison has limits. A note that an ability was strengthened establishes a direction of change.",
+          "Start with the noun in your question. If you want to understand an attack or an active ability, open Modules. If the issue follows your character selection across equipment choices, inspect Captains. If an additional effect appears to depend on a trigger, check Artifacts. This keeps a search for a particular rule from turning into a comparison between unrelated systems.",
+          "Vehicles and Biomes provide the context around equipment. Vehicle records concern a selectable player platform and handling changes.",
+          "For example, a search about Side Ballista belongs in Modules even if you think of it as a weapon. Follow the same underlying record from the weapon index. This lets you read the automatic and active changes together without wondering whether two pages describe different objects."
+        ],
+        "links": [
+          {
+            "label": "Offensive equipment index",
+            "url": "/database/weapons/"
+          }
+        ],
+        "table": {
+          "headers": [
+            "Category",
+            "Use it for"
+          ],
+          "rows": [
+            [
+              "Modules",
+              "Automatic attacks, active abilities, and documented equipment changes"
+            ],
+            [
+              "Captains",
+              "Character-specific rules and known tradeoffs"
+            ],
+            [
+              "Artifacts",
+              "Confirmed relic identities and documented interactions"
+            ],
+            [
+              "Weapons",
+              "Finding offense through the module catalogue without duplicate entries"
+            ],
+            [
+              "Vehicles",
+              "Player platforms and versioned handling changes"
+            ],
+            [
+              "Biomes",
+              "Region names, difficulty context, and overtime distinctions"
+            ],
+            [
+              "Bosses",
+              "Encounter preparation and the limits of the confirmed roster"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Read unlocks and build links together",
+        "paragraphs": [
+          "Availability and performance are separate. An unlock adds a choice, while the choice’s value depends on the rest of the setup. The progression guide covers the reroll rewards for module and artifact unlock counts.",
+          "Related links connect an entry to the player decision it affects: movement penalties to controls, active-versus-automatic changes to build principles, and region difficulty to encounter preparation. Those links are editorial context, not an assertion of a tested synergy.",
+          "A useful lookup can proceed in three steps. First, identify the exact record rather than relying on a similar-sounding name. Next, read what the note establishes and which version it concerns. Finally, follow the related guide only if you need help applying the fact. This separates a quick factual lookup from a longer strategy discussion.",
+          "Suppose a favorite attack feels different after an update. The record can tell you that one component changed, but the build guide is where you consider whether that component matters to your play. Conversely, if you are deciding what to unlock, an ability change does not supply an obtain method. Use the progression guide for the collection system and the installed game for any requirement absent from the record.",
+          "Connections between systems can also expose an incomplete plan. An ability-focused idea needs both the module behavior and the selected captain rule. A movement-sensitive idea needs an understanding of the vehicle as well as the attack. These are checks to make before choosing, not a database claim that every linked object has a special coded interaction."
+        ],
+        "links": [
+          {
+            "label": "Progression and rerolls",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "Build planning",
+            "url": "/guides/best-build/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Get more from each entry",
+        "paragraphs": [
+          "Start with the description and role, then read the effect and recommended use. Think about the action you want to improve: applying damage, controlling a threat, moving into position, or recovering after an attack.",
+          "Compare equipment at the same rarity and upgrade stage. An improvement to an active ability matters most when you use that ability regularly; a change to starting movement matters most while learning the vehicle.",
+          "Follow Related Guides for practical next steps. Modules connect to build planning, captains to playstyle choices, vehicles to controls, and biomes to progression. Use the update links when a familiar choice feels different after a patch."
+        ],
+        "links": [
+          {
+            "label": "Sources and editorial standards",
+            "url": "/about/"
+          },
+          {
+            "label": "Latest changes",
+            "url": "/updates/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "database/modules": {
+    "sections": [
+      {
+        "title": "Modules determine how your castle fights",
+        "paragraphs": [
+          "A module adds equipment to the moving fortress. The official press kit describes weapon attachments and upgrades during a run; release-week notes identify both automatic attacks and active abilities. That distinction is the starting point for choosing equipment, because the two parts of one module can receive different balance changes.",
+          "Do not judge an active ability solely by how comfortable the automatic attack feels. Ask what happens when you actually use the ability, whether it solves a problem your existing equipment leaves open, and whether you can use it while keeping the castle in a safe position."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Module roles",
+        "paragraphs": [
+          "These pages group offense, control, and projectile control as descriptive roles. They are navigation labels, not a claim that the game presents exactly those menu categories. Equipment can serve more than one purpose.",
+          "Side Ballista and Side Arm illustrate offensive records; Force Mage offers a specifically projectile-cancellation behavior. Electric Mage has a stun-capable active ability. These distinctions are useful even when a current, complete numerical tooltip is unavailable.",
+          "Front, side, back, and top appear in several names. Keep those names intact when searching, but do not derive an attachment grid or a firing arc from the name alone. For placement decisions, inspect what the installed game permits and observe the position needed to apply the action.",
+          "For practical organization, distinguish an action that removes a threat from an action that interrupts or avoids one. Force Mage and Electric Mage invite different questions: whether the incoming projectile is canceled, or whether the intended target responds to a stun. Those outcomes should be checked separately rather than grouped into an assumed universal shield effect."
+        ],
+        "links": [
+          {
+            "label": "Force Mage",
+            "url": "/database/modules/force-mage/"
+          },
+          {
+            "label": "Electric Mage",
+            "url": "/database/modules/electric-mage/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Choose a missing function before chasing a bigger number",
+        "paragraphs": [
+          "diagnose the failure first. If enemies remain alive because you cannot stay in a useful position, another damage choice may leave the real problem untouched. If you consistently reach an opening but cannot capitalize on it, offense or active-ability availability may deserve attention.",
+          "When the game offers an upgrade, compare it with what you are actually using. A bonus to a rarely used ability can be less helpful to your present run than a smaller improvement to your main action.",
+          "A selection example: if the automatic offense is contributing but an important active action is repeatedly unused, adding another timing-dependent choice may increase the work you have to manage. First try using the existing action deliberately. If it still does not address the problem, compare the offered alternatives by function."
+        ],
+        "links": [
+          {
+            "label": "Build principles",
+            "url": "/guides/best-build/"
+          },
+          {
+            "label": "Offensive module index",
+            "url": "/database/weapons/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Build around complementary roles",
+        "paragraphs": [
+          "Pair your main offensive action with a response to the problem that keeps ending your run. Force Mage offers projectile cancellation, while Electric Mage brings a stun-capable action. Choose the role you need rather than collecting several tools that all answer the same situation.",
+          "For active-heavy setups, pay attention to your captain’s cooldown rule. For contact attacks such as Ram, consider vehicle handling and the route out of the engagement. The best combination is one you can use while keeping the fortress under control.",
+          "Browse Front Barracks, Side Ballista, Force Mage, Electric Mage, Back Turret, Side Arm, Ram, Top Mortar, and Fire Mage below. Use each entry to explore its role, then visit the build guide to plan how your choices work together."
+        ],
+        "links": [
+          {
+            "label": "Captain tradeoffs",
+            "url": "/database/captains/"
+          },
+          {
+            "label": "Module comparison priorities",
+            "url": "/tier-list/modules/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Are all modules weapons?",
+        "No independent weapon inventory is assumed here. The weapon page points to offensive module records, while modules can also provide utility such as projectile cancellation."
+      ],
+      [
+        "Can I use a demo damage table?",
+        "Only as historical information."
+      ]
+    ]
+  },
+  "database/captains": {
+    "sections": [
+      {
+        "title": "Choose a captain by the complete rule",
+        "paragraphs": [
+          "Captains are part of Wanderburg’s between-run selection and unlock systems. A useful comparison starts with the behavior a captain changes and the price attached to that change. A benefit and its drawback belong in the same decision.",
+          "The current records are deliberately narrower than a complete roster guide. Official hotfix 0.9.10 names five captains and reduces specific penalties.",
+          "Huntress, Tankbert, Duelist, PatchyThePirate, and Kapitalstus Maximus each bring a different tradeoff to consider. Compare ability timing, Nitro recovery, boost exposure, enemy cannons, and gold according to the goal of your run."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Captain tradeoffs",
+        "paragraphs": [
+          "Huntress affects ability cooldowns, Tankbert has a Nitro-regeneration penalty, and Duelist takes additional damage while boosting. PatchyThePirate has an enemy-cannon damage drawback. The official spelling Kapitalstus Maximus is retained from the patch note, which refers to a gold penalty.",
+          "These facts let you ask better questions without making up a winner. How often does your setup need an active ability? Are you spending Nitro aggressively? Are you boosting through danger? Which income rule does the current tooltip actually describe?"
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Captain",
+            "Confirmed consideration"
+          ],
+          "rows": [
+            [
+              "Huntress",
+              "Active-ability timing"
+            ],
+            [
+              "Tankbert",
+              "Nitro recovery"
+            ],
+            [
+              "Duelist",
+              "Risk while boosting"
+            ],
+            [
+              "PatchyThePirate",
+              "Incoming enemy cannon damage"
+            ],
+            [
+              "Kapitalstus Maximus",
+              "A gold-related drawback"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Match the choice to your equipment and handling",
+        "paragraphs": [
+          "For an ability-focused experiment, look at your captain and module descriptions together. A module whose active ability recently improved does not automatically pair well with a captain that changes cooldowns. You must account for both sides.",
+          "For movement-sensitive play, try the vehicle with your captain’s rule before judging the equipment. A handling problem can look like a weak build if it prevents you from reaching or leaving an opening. The controls guide covers the available input information.",
+          "Before confirming a selection, explain its downside in terms of an action you actually take. For Huntress, that means considering moments when an ability needs to be ready. For Tankbert, think about the intervals between boosts. For Duelist, consider whether you commonly boost while exposed. This exercise turns an abstract penalty into something you can watch during a run.",
+          "Then read the positive effect directly in the game and ask whether it rewards the behavior you intend to use. The catalogue cannot make that second decision for you where the full effect is absent from the official note. Choosing a familiar rule while learning a vehicle is a reasonable editorial preference; selecting an unfamiliar rule intentionally is also useful when the goal is to learn that captain."
+        ],
+        "links": [
+          {
+            "label": "Side Ballista",
+            "url": "/database/modules/side-ballista/"
+          },
+          {
+            "label": "Vehicle handling",
+            "url": "/database/vehicles/"
+          },
+          {
+            "label": "Controls",
+            "url": "/guides/controls/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Choose for the run you want to play",
+        "paragraphs": [
+          "Start with a captain whose rule fits your habits. A setup built around frequent active abilities needs attention to cooldowns; one that uses boost to enter and leave fights needs attention to Nitro recovery and incoming damage.",
+          "When learning a new captain, keep a familiar vehicle and offensive plan. This makes the character’s tradeoff easier to notice. Once the rule feels comfortable, experiment with equipment that supports the way you want to fight.",
+          "Use the captain comparison page for recommended situations and the progression guide for planning your next unlock goal. Read the requirement shown in the game before setting out to unlock a particular character."
+        ],
+        "links": [
+          {
+            "label": "Captain comparison guide",
+            "url": "/tier-list/captains/"
+          },
+          {
+            "label": "Progression",
+            "url": "/guides/progression/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Is this every captain in the game?",
+        "No."
+      ],
+      [
+        "Which captain should a beginner choose?",
+        "Prefer a rule you understand and a drawback you can manage."
+      ]
+    ]
+  },
+  "database/artifacts": {
+    "sections": [
+      {
+        "title": "Artifacts add another layer to a build",
+        "paragraphs": [
+          "Artifacts are unlockable options in Wanderburg’s broader progression system. Their value depends on their stated effect, its activation conditions, and the rest of the run. Treat an artifact as a rule to understand before treating it as a power increase.",
+          "A good first question is whether your present setup can trigger the effect. A second is whether the effect addresses your current problem.",
+          "Read the trigger before choosing an artifact. Ask whether your modules activate it regularly and whether the effect helps with the encounter you are preparing for."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Electric Arrow and Phoenix Feather",
+        "paragraphs": [
+          "Electric Arrow received a trigger-reliability fix in 0.9.10. If you return to a setup that uses it, pay attention to when the effect activates and how that fits your attacks.",
+          "Phoenix Feather had its interaction with Valkyrie fixed in 0.9.9. When building around an artifact interaction, read the activation condition alongside the character or equipment it affects.",
+          "Choose an artifact for an action your setup actually performs. A powerful-looking effect is less useful to your plan if you rarely meet its condition during an encounter."
+        ],
+        "links": [
+          {
+            "label": "Electric Arrow",
+            "url": "/database/artifacts/electric-arrow/"
+          },
+          {
+            "label": "Phoenix Feather",
+            "url": "/database/artifacts/phoenix-feather/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "How to assess a candidate artifact",
+        "paragraphs": [
+          "Read the exact trigger, the affected action, and any condition or limit. Then compare those requirements with your modules, captain, and planned movement. If you cannot explain when it will help, avoid building the entire run around an assumed interaction.",
+          "When two effects appear related, separate observation from causation. Seeing a strong result after equipping both does not show how they combine mathematically. Use one change at a time if you want to investigate an interaction.",
+          "Use a conditional explanation when examining an artifact: when this stated condition occurs, this stated action receives this effect. If you cannot complete that sentence from the actual description, the missing part remains a question.",
+          "As an editorial selection principle, compare an understandable effect with a speculative combination by asking what each would do in the next relevant encounter. An effect whose condition your setup never meets has no demonstrated contribution to that plan."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Question",
+            "What to establish"
+          ],
+          "rows": [
+            [
+              "Trigger",
+              "What action activates the effect?"
+            ],
+            [
+              "Target",
+              "Which attack, unit, or resource is affected?"
+            ],
+            [
+              "Conditions",
+              "Does the effect depend on a particular state?"
+            ],
+            [
+              "Interaction",
+              "Is the pairing documented or only suspected?"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Unlocks and rerolls are distinct from drops",
+        "paragraphs": [
+          "Hotfix 0.9.10 awards an additional artifact reroll for each six artifact unlocks. That is a collection-related rule. It is not an artifact drop rate, a guaranteed way to obtain a specific relic, or a proof that every artifact uses the same unlock method.",
+          "Use the progression page for this system-level rule and the individual record for any item-specific details.",
+          "Keep collection goals separate from an individual artifact recommendation. Moving toward another unlock-based reroll can be a progression objective even when the newly unlocked option is not the centerpiece of your current setup."
+        ],
+        "links": [
+          {
+            "label": "Unlock-based rerolls",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "Build combinations",
+            "url": "/guides/best-build/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "How should I choose an artifact?",
+        "Choose an effect whose trigger fits the actions your build uses regularly. Consider what it adds during the encounter you are preparing for."
+      ],
+      [
+        "Do artifact unlocks help future runs?",
+        "Yes. Each six artifact unlocks adds an Artifact Reroll under the 0.9.10 progression rule."
+      ]
+    ]
+  },
+  "database/weapons": {
+    "sections": [
+      {
+        "title": "Weapons and offensive modules",
+        "paragraphs": [
+          "Weapons are part of the module system: cannons, magic towers, explosives, and contact-oriented equipment give the moving castle different ways to fight. Use this page to explore offense, then open the module entry for the action you want to use."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Automatic attacks and abilities can favor different builds",
+        "paragraphs": [
+          "Official balance changes show why the distinction matters. Side Ballista’s automatic attack was weakened while its active ability was strengthened in 0.9.9. Side Arm received stronger rarity-based damage for both parts in 0.9.10.",
+          "When choosing between them, begin with how you use the equipment. An active-focused player and a player relying heavily on automatic attacks are not necessarily asking the same question. No universal winner follows from the direction of those changes."
+        ],
+        "links": [
+          {
+            "label": "Side Ballista",
+            "url": "/database/modules/side-ballista/"
+          },
+          {
+            "label": "Side Arm",
+            "url": "/database/modules/side-arm/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Projectile, magic, and contact considerations",
+        "paragraphs": [
+          "Top Mortar has a projectile-firing active ability. Fire Mage is associated with Firestorm. Ram has received damage-consistency and behavior fixes.",
+          "For editorial build planning, consider where you must be to use the weapon, what an unsuccessful attack costs in positioning, and whether you can leave the engagement afterward. Damage potential is only useful when the attack can be applied.",
+          "If your search is for a cannon, mage attack, or contact weapon, use the named module as the final reference. Read the action you intend to rely on before comparing it with another weapon. The weapon index is most useful for narrowing an offensive question: what type of action am I trying to apply, and which entry discusses it?",
+          "For editorial comparison, distinguish an attack that looks effective in a crowded scene from one that contributes during the opening you actually have."
+        ],
+        "links": [
+          {
+            "label": "Top Mortar",
+            "url": "/database/modules/top-mortar/"
+          },
+          {
+            "label": "Fire Mage",
+            "url": "/database/modules/fire-mage/"
+          },
+          {
+            "label": "Ram",
+            "url": "/database/modules/ram/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Offense still needs an answer to incoming attacks",
+        "paragraphs": [
+          "Force Mage’s projectile cancellation is a useful reminder that a module can influence a fight without being evaluated only by outgoing damage. Such utility does not mean every incoming attack can be removed.",
+          "Use the build guide for balancing offensive coverage with room to maneuver. Neither page claims a tested best weapon for every boss.",
+          "When the missing function is protection or control, continue to the broader module catalogue instead of forcing every useful action into a weapon ranking. When the question is how several choices work together, continue to the build guide."
+        ],
+        "links": [
+          {
+            "label": "Force Mage",
+            "url": "/database/modules/force-mage/"
+          },
+          {
+            "label": "Build principles",
+            "url": "/guides/best-build/"
+          },
+          {
+            "label": "Module priorities",
+            "url": "/tier-list/modules/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Where can I find weapon details?",
+        "Open the matching entry in Modules. Weapons are offensive equipment within that system."
+      ],
+      [
+        "Should I focus on automatic attacks or abilities?",
+        "Start with the action you can use reliably while steering. Add more timing-dependent choices as you become comfortable with the vehicle."
+      ]
+    ]
+  },
+  "database/vehicles": {
+    "sections": [
+      {
+        "title": "The vehicle is the platform you have to drive",
+        "paragraphs": [
+          "Tower and Spider are player vehicles. Treat the vehicle as the foundation of a build: it must bring your equipment into a useful position and carry the castle out of danger afterward.",
+          "Official materials call these vehicles, and release notes explicitly identify Tower and Spider as player vehicles. The archive uses those names rather than inventing a roster of castle chassis.",
+          "The choice matters because movement and combat happen together. A vehicle that feels unfamiliar can make a module seem awkward even when the module is doing what its description says. Separate learning the platform from evaluating a new attack."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Tower and Spider changed after launch",
+        "paragraphs": [
+          "Hotfix 0.9.9 made both vehicles faster at earlier or base levels. Spider’s speed upgrades were also weakened. Those are separate changes: a better starting feel does not imply stronger late-run scaling.",
+          "The controls guide explains how to distinguish version changes from differences in your input setup."
+        ],
+        "links": [
+          {
+            "label": "Tower",
+            "url": "/database/vehicles/tower/"
+          },
+          {
+            "label": "Spider",
+            "url": "/database/vehicles/spider/"
+          },
+          {
+            "label": "Controls guide",
+            "url": "/guides/controls/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "A useful handling check",
+        "paragraphs": [
+          "As a practical test, establish how the platform turns, moves forward, reverses where supported, and responds when you use boost. Try those actions before combining them with an unfamiliar captain drawback.",
+          "During combat, notice whether you fail to reach an opening or fail to leave it. The first may call for a different approach path; the second may call for preserving Nitro or making a less committed attack. These are observations to guide play, not asserted hidden vehicle statistics.",
+          "For an editorial handling comparison, use a familiar stretch of open space to try a broad turn, a change of direction, and a boost followed by recovery. Notice whether your intended path and actual path agree. These are observation tasks, not claims about a fixed turning radius, acceleration formula, or a special vehicle ability.",
+          "After that, try the equipment action you already understand. If the attack connects but leaves you facing an awkward exit, adjust the approach before replacing the entire build. If the input itself feels inconsistent, consult the controls guide. Keeping those questions separate makes it easier to learn a new platform without attributing every result to the vehicle name."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Unlock a new way to move",
+        "paragraphs": [
+          "Vehicles unlock between runs and give you another platform for your equipment. Choose a vehicle-learning attempt when you can focus on its movement instead of also learning an unfamiliar captain and several new abilities.",
+          "Practice a broad turn, an approach, and a retreat before committing to a difficult fight. Then repeat the sequence with your familiar attack. Pay attention to where the fortress finishes, not only whether the attack lands.",
+          "Check the vehicle’s in-game unlock requirement when choosing your next goal. Once it is available, compare its starting feel with its movement after upgrades; those are different parts of the experience."
+        ],
+        "links": [
+          {
+            "label": "Progression systems",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "Encounter preparation",
+            "url": "/bosses/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Which vehicle is fastest?",
+        "Spider’s base behavior and its upgrades changed in different ways, making an unqualified answer misleading."
+      ],
+      [
+        "Can every enemy fortress be unlocked?",
+        "No such rule has been confirmed. Enemy identity and player availability are separate facts."
+      ]
+    ]
+  },
+  "database/biomes": {
+    "sections": [
+      {
+        "title": "Keep region, difficulty, and overtime separate",
+        "paragraphs": [
+          "Grassland, Dark Forest, and Desert are in official material. A biome describes an environment, but the difficulty variant and the decision to continue into overtime also affect what you are comparing. Record all three when reading a guide or describing a run.",
+          "The official press kit describes a procedurally generated map. A screenshot can show the appearance of a region, but it is not a reliable coordinate guide for your own attempt. This archive therefore avoids made-up fixed routes and spawn maps.",
+          "Our preparation advice therefore concerns reading the current space and threats, while the region records retain only the distinctions supported by official material.",
+          "The map is procedurally generated. Read the current terrain and nearby enemies instead of following a fixed route from another attempt."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Grassland and the Meadows difficulty label",
+        "paragraphs": [
+          "The launch-week notes refer to Grassland 1, 2, and 3. They identify Grassland Difficulty 2 as Meadows and say it was made easier in 0.9.9. Meadows is not duplicated here as a fourth biome.",
+          "The same update mentions Taurus Drillus in a Grassland 2 adjustment."
+        ],
+        "links": [
+          {
+            "label": "Grassland record",
+            "url": "/database/biomes/grassland/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Dark Forest difficulty composition",
+        "paragraphs": [
+          "Hotfix 0.9.6 changed Dark Forest difficulties 2 and 3 to fewer, stronger enemies. That is a concrete reason to avoid judging pressure by enemy count alone. A less crowded scene may still demand careful positioning.",
+          "As editorial preparation for a different enemy composition, observe the first unfamiliar opposition before making assumptions from the previous region. Consider whether your usual attack leaves enough opportunity to move afterward. This is a reason to reassess your approach, not a claim that a particular module counters every Dark Forest enemy or that the biome requires a named build."
+        ],
+        "links": [
+          {
+            "label": "Dark Forest record",
+            "url": "/database/biomes/dark-forest/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Desert and overtime",
+        "paragraphs": [
+          "Desert was introduced in an official preview and is referenced by the release-week overtime changes. Hotfix 0.9.8 strengthened the Overtime Mortar and changed its projectile flight behavior.",
+          "For preparation, distinguish completing the ordinary objective from testing how long a setup can survive afterward.",
+          "When comparing two runs, first match the region label, then the difficulty, then whether the result concerns normal play or overtime. Only after that should you compare the equipment. Otherwise a change in the encounter conditions can look like a change in build strength. Use the progression guide when choosing a challenge and the encounter guide when the immediate problem is surviving it."
+        ],
+        "links": [
+          {
+            "label": "Desert record",
+            "url": "/database/biomes/desert/"
+          },
+          {
+            "label": "Boss and encounter preparation",
+            "url": "/bosses/"
+          },
+          {
+            "label": "Progression guide",
+            "url": "/guides/progression/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "How many biomes are confirmed in this archive?",
+        "Three: Grassland, Dark Forest, and Desert. This is the set used by the archive, not a promise that no additional environment exists."
+      ],
+      [
+        "Is Meadows a separate biome?",
+        "The official 0.9.9 note labels it Grassland Difficulty 2. It is treated as a difficulty label here."
+      ]
+    ]
+  },
+  "bosses": {
+    "sections": [
+      {
+        "title": "Boss victories change the fortress",
+        "paragraphs": [
+          "Bosses are part of Wanderburg’s core growth loop: the official press kit connects defeating them with further castle expansion. That makes preparing for a major encounter a different decision from pursuing another small target.",
+          "This page covers the boss system and preparation.",
+          "This guide focuses on preparing for bosses and major enemy-fortress encounters: choosing an approach, timing abilities, managing exposure, and recovering after a committed attack."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Major encounters and regional challenges",
+        "paragraphs": [
+          "The Dark Tower appears in the Difficulty 1 balance changes, while Taurus Drillus appears in the Grassland 2 adjustments. Keep the region and difficulty in mind when preparing for these named encounters.",
+          "Desert overtime introduces a different endurance question from an ordinary clear. The Overtime Mortar received stronger attacks and changed projectile flight behavior in 0.9.8. Watch the approach of incoming attacks before committing your castle to a close pass.",
+          "Against a large enemy fortress, prepare an opening and a recovery plan together. A successful attack still leaves you with the next movement decision: continue, turn away, or wait for another ability window."
+        ],
+        "links": [
+          {
+            "label": "Biome and difficulty context",
+            "url": "/database/biomes/"
+          },
+          {
+            "label": "Release-week updates",
+            "url": "/updates/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Prepare an opening and an exit",
+        "paragraphs": [
+          "approach a new major opponent with room to move. Watch what happens before committing to a close pass, and keep a route that does not force you through another threat. A failed approach should teach you something about timing rather than immediately ending the experiment.",
+          "Check the availability of the active ability you expect to use. If your setup depends on a particular action, entering while it is unavailable can be a bigger problem than a modest difference in theoretical damage. A captain with a cooldown drawback makes that question especially relevant.",
+          "A practical preparation sequence is to identify the action you intend to use, check that it is available, and inspect where the approach will end. If the route already crosses several threats, reconsider the line before committing. This checklist is general editorial advice for enemy-fortress combat; it is not a claimed script for a particular boss phase.",
+          "During the engagement, treat an unsuccessful pass as information. Did the action fail to contribute, did the opponent remain dangerous after it landed, or did another enemy interfere? Those observations point toward different adjustments. A stronger attack might help the second problem while leaving the third completely unchanged."
+        ],
+        "links": [
+          {
+            "label": "Huntress record",
+            "url": "/database/captains/huntress/"
+          },
+          {
+            "label": "Build planning",
+            "url": "/guides/best-build/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Do not assume universal control or protection",
+        "paragraphs": [
+          "Force Mage can cancel incoming projectiles, while Electric Mage has a stun-capable active ability. Use these actions deliberately, and keep moving when the situation calls for a new position.",
+          "Electric Mage has a stun-capable ability, but a control effect being present does not prove every major opponent is affected equally.",
+          "Similarly, a Ram setup asks you to commit the vehicle itself to the attack. Evaluate whether you can recover after the pass. This is why a close-contact demonstration should not be copied solely from its damage result.",
+          "If an expected defensive action does not protect you, do not immediately assume it is broken or universally ineffective. First identify what hit the castle and whether that is the interaction you were trying to answer. Repositioning to reduce the number of simultaneous threats can make the next observation clearer. No immunity, stun duration, or guaranteed safe distance is asserted here."
+        ],
+        "links": [
+          {
+            "label": "Force Mage",
+            "url": "/database/modules/force-mage/"
+          },
+          {
+            "label": "Electric Mage",
+            "url": "/database/modules/electric-mage/"
+          },
+          {
+            "label": "Ram",
+            "url": "/database/modules/ram/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Rewards and overtime notes",
+        "paragraphs": [
+          "Hotfix 0.9.9 made boss tombstones collectible and said they drop silver. That is a reward-related change, but no amount or full loot table is supplied here.",
+          "The achievement announcements also distinguish normal wins from overtime and describe fixes to win checks. If you are investigating progression rather than endurance, keep the run outcome and whether you entered overtime in your notes."
+        ],
+        "links": [
+          {
+            "label": "Progression and achievements",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "First-run survival",
+            "url": "/guides/beginner-guide/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Where is the full named boss list?",
+        "No speculative records are published."
+      ],
+      [
+        "Can every boss be stunned?",
+        "An ability having a stun effect is not enough to establish every target’s susceptibility."
+      ],
+      [
+        "Do bosses drop silver?",
+        "The 0.9.9 note says collectible boss tombstones drop silver. It does not give an amount."
+      ]
+    ]
+  },
+  "tier-list": {
+    "sections": [
+      {
+        "title": "Choose a priority for your next run",
+        "paragraphs": [
+          "For beginners, our first priority is dependable offense you can use while steering. Next comes a response to the threat causing trouble, followed by specialized combinations once the basic setup feels comfortable.",
+          "These are editorial recommendations for Early Access, not official rankings. A first clear, a captain-learning run, and overtime survival call for different priorities. Use the module and captain pages to choose for your own goal."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "What makes a choice useful",
+        "paragraphs": [
+          "Consistency means an effect can be used under ordinary conditions. Survivability concerns the mistakes a setup can recover from. Damage contribution asks what an item actually adds to the attacks you use, not just whether its tooltip contains a large number.",
+          "Ease of use, flexibility, synergy, and boss performance complete the picture. A demanding ability may be excellent for a practiced player and a poor recommendation for someone still learning the vehicle. A pairing must have a interaction before it is described as a proven synergy.",
+          "Use the criteria in order of importance to your goal rather than inventing an average score. For a first-clear attempt, you might prioritize whether you can apply a choice reliably and recover after a mistake. For an experienced ability-focused player, usable timing may deserve more weight. These are editorial priorities, not hidden numerical weights or official rating rules.",
+          "A useful recommendation should name both the favorable case and the case in which you would choose something else. If it demands a committed approach, describe that cost rather than presenting a successful hit as the whole result."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Criterion",
+            "Question to ask"
+          ],
+          "rows": [
+            [
+              "Consistency",
+              "Does the useful behavior occur reliably?"
+            ],
+            [
+              "Survivability",
+              "What happens when the approach goes wrong?"
+            ],
+            [
+              "Damage contribution",
+              "Which attacks benefit in this actual setup?"
+            ],
+            [
+              "Ease of use",
+              "Can the player apply the benefit while steering?"
+            ],
+            [
+              "Flexibility",
+              "Does the choice work outside one narrow condition?"
+            ],
+            [
+              "Synergy",
+              "Is the interaction established or just plausible?"
+            ],
+            [
+              "Boss performance",
+              "Was it evaluated against the same encounter and difficulty?"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Recommended order of decisions",
+        "paragraphs": [
+          "1. Secure an offensive action you can apply reliably. A powerful action that repeatedly leaves you in danger is a poor fit for a learning run.",
+          "2. Address your main survival problem. Consider projectile control when incoming shots are the issue, or a less committed approach when close attacks are leaving you exposed.",
+          "3. Add specialized interactions once the basics work. Check the artifact trigger and captain tradeoff against the actions you actually use. This order prioritizes a coherent setup over chasing a famous item name."
+        ],
+        "links": [
+          {
+            "label": "Captain comparisons",
+            "url": "/tier-list/captains/"
+          },
+          {
+            "label": "Module comparisons",
+            "url": "/tier-list/modules/"
+          },
+          {
+            "label": "Build principles",
+            "url": "/guides/best-build/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "What should I prioritize first?",
+        "Reliable offense, then the defensive or control role your run needs most. Add specialized interactions after those basics work."
+      ],
+      [
+        "Are these official rankings?",
+        "No. These are editorial recommendations for different playstyles in Early Access."
+      ]
+    ]
+  },
+  "tier-list/captains": {
+    "sections": [
+      {
+        "title": "Evaluate the drawback you will actually experience",
+        "paragraphs": [
+          "A captain comparison is about the whole rule, not a list of attractive benefits. The available current official notes describe several reduced penalties without reproducing every complete ability. That supports a tradeoff guide, but not a universal best-captain claim.",
+          "If ability timing is already difficult, investigate a cooldown drawback carefully. If escape depends on Nitro, investigate recovery. If you boost into threats, investigate damage taken during that state."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Five captain tradeoffs",
+        "paragraphs": [
+          "Huntress is relevant to active-ability frequency; Tankbert to Nitro regeneration; Duelist to the risks of boosting. PatchyThePirate changes the danger of enemy cannons, while Kapitalstus Maximus has a gold-related penalty. The 0.9.10 note reduces those respective drawbacks.",
+          "A reduced penalty is a reason to revisit a choice, not proof that it has overtaken every alternative."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Captain",
+            "Consider when",
+            "Watch out for"
+          ],
+          "rows": [
+            [
+              "Huntress",
+              "Planning around active abilities",
+              "Longer ability cooldowns"
+            ],
+            [
+              "Tankbert",
+              "Comfortable spacing your boosts",
+              "Slower Nitro recovery"
+            ],
+            [
+              "Duelist",
+              "Able to boost away from incoming attacks",
+              "Extra damage taken while boosting"
+            ],
+            [
+              "PatchyThePirate",
+              "Comfortable avoiding cannon fire",
+              "Enemy cannon damage drawback"
+            ],
+            [
+              "Kapitalstus Maximus",
+              "Choosing a gold-related playstyle",
+              "Gold penalty"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Beginner, specialist, and progression goals",
+        "paragraphs": [
+          "For a beginner, an understandable rule can be more valuable than a theoretically powerful but poorly understood one. For a specialist, a drawback may be manageable because the rest of the setup already compensates for it.",
+          "For progression, separate earning or spending resources from winning a difficult encounter. A gold-oriented choice should not automatically be evaluated by the same goal as an attempt to survive a new biome.",
+          "For an ability-oriented player considering Huntress, the key question is whether the complete benefit justifies the timing drawback in that setup. For a player who uses frequent boosts considering Tankbert, examine whether the recovery limitation regularly interferes with the intended sequence.",
+          "For Duelist, evaluate the habit of boosting under fire rather than treating movement speed as the entire choice. For PatchyThePirate, think about your ability to avoid enemy cannon hits. Practice avoiding those attacks before choosing a character whose drawback makes them more punishing.",
+          "For Kapitalstus Maximus, identify the specific gold rule before comparing outcomes. A run aimed at a resource objective and a run aimed at learning an encounter can value the same drawback differently."
+        ],
+        "links": [
+          {
+            "label": "Huntress",
+            "url": "/database/captains/huntress/"
+          },
+          {
+            "label": "Tankbert",
+            "url": "/database/captains/tankbert/"
+          },
+          {
+            "label": "Duelist",
+            "url": "/database/captains/duelist/"
+          },
+          {
+            "label": "PatchyThePirate",
+            "url": "/database/captains/patchy-the-pirate/"
+          },
+          {
+            "label": "Kapitalstus Maximus",
+            "url": "/database/captains/kapitalstus-maximus/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Recommendations by playstyle",
+        "paragraphs": [
+          "For beginners: prioritize a captain whose benefit and drawback you can apply comfortably. Keep the vehicle familiar while learning the character so you can focus on the rule that changes your decisions.",
+          "For ability-focused runs: weigh Huntress’s cooldown drawback against the benefit shown in her current description. For frequent boosting: pay particular attention to Tankbert’s recovery penalty and Duelist’s incoming-damage penalty during boost.",
+          "For cannon-heavy encounters: consider how often PatchyThePirate’s drawback will affect you. For a gold-focused goal: read Kapitalstus Maximus’s gold rule before choosing. These are situational recommendations, not an overall power ranking."
+        ],
+        "links": [
+          {
+            "label": "Captain records",
+            "url": "/database/captains/"
+          },
+          {
+            "label": "Build planning",
+            "url": "/guides/best-build/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Who should beginners choose?",
+        "Start with an available captain whose rule feels manageable on a familiar vehicle. Pay attention to the drawback during your first few fights."
+      ],
+      [
+        "Should I revisit a captain after a buff?",
+        "Yes, if the changed drawback previously disrupted your playstyle. Compare how the rule feels with the equipment you intend to use."
+      ]
+    ]
+  },
+  "tier-list/modules": {
+    "sections": [
+      {
+        "title": "Compare the function before the module name",
+        "paragraphs": [
+          "For modules, consistency means that the useful attack or ability fits how you move and fight. A module that solves your current problem may be a better choice for this run than one with a stronger reputation in a different setup.",
+          "The module database provides the versioned facts; the recommendations here explain the questions those facts raise."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Automatic offense and active offense are separate axes",
+        "paragraphs": [
+          "Side Ballista moved toward a stronger active ability and a weaker automatic attack in 0.9.9. Side Arm received rarity-based damage improvements for both in 0.9.10. Neither change is enough to compare complete current damage output across equipment.",
+          "If your build depends on automatic attacks, do not treat an active-ability buff as an identical gain. If you are comfortable using abilities, check the cooldown rules and your captain’s tradeoff before deciding that the stronger active ability will be available often enough."
+        ],
+        "links": [
+          {
+            "label": "Side Ballista",
+            "url": "/database/modules/side-ballista/"
+          },
+          {
+            "label": "Side Arm",
+            "url": "/database/modules/side-arm/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Utility and commitment belong in the comparison",
+        "paragraphs": [
+          "Evaluate them by what they let you avoid or control, while keeping target restrictions and missing durations in mind.",
+          "Ram asks a different positioning question from a projectile ability: how committed is the vehicle to the attack, and can you leave afterward?",
+          "For a player struggling specifically with incoming projectiles, Force Mage is a candidate to inspect because its cancellation behavior addresses that question directly. The favorable case is a threat the action can answer; the limitation is that other damage remains a separate problem. This explains why it may deserve consideration without making it a universal first pick.",
+          "For a player comfortable planning an active action, Side Ballista is worth reassessing after its shift toward that action. A player relying mostly on automatic offense should not assume the same benefit. Side Arm has changes to both parts, but that still leaves the need for a matched comparison rather than declaring it the stronger option from the patch wording.",
+          "For a player experimenting with Ram, the cost to evaluate is the approach and recovery of the entire castle. That can make it a more demanding experiment when handling is still unfamiliar. This is an editorial assessment of the decisions involved, not a damage tier or a claim that experienced players should always prefer contact attacks."
+        ],
+        "links": [
+          {
+            "label": "Force Mage",
+            "url": "/database/modules/force-mage/"
+          },
+          {
+            "label": "Electric Mage",
+            "url": "/database/modules/electric-mage/"
+          },
+          {
+            "label": "Ram",
+            "url": "/database/modules/ram/"
+          },
+          {
+            "label": "Top Mortar",
+            "url": "/database/modules/top-mortar/"
+          },
+          {
+            "label": "Fire Mage",
+            "url": "/database/modules/fire-mage/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Situational module priorities",
+        "paragraphs": [
+          "First priority: keep offense usable. Side Arm and Side Ballista are choices to compare through automatic attacks and active abilities; favor the action you can apply consistently during the openings you create.",
+          "For projectile pressure, consider Force Mage. Its cancellation action gives you another response to incoming shots, though positioning still matters. For control, consider Electric Mage and watch how the target responds to its stun action.",
+          "For a contact-oriented experiment, consider Ram after you are comfortable approaching and leaving a fight. Its practical cost is the commitment of the castle itself. Top Mortar and Fire Mage offer other offensive actions to explore when you want to change how you apply pressure."
+        ],
+        "links": [
+          {
+            "label": "Back Turret",
+            "url": "/database/modules/back-turret/"
+          },
+          {
+            "label": "Build principles",
+            "url": "/guides/best-build/"
+          },
+          {
+            "label": "Boss preparation",
+            "url": "/bosses/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "Which module should I consider against projectiles?",
+        "Force Mage offers projectile cancellation. Use it as an additional response while preserving room to maneuver."
+      ],
+      [
+        "When should I try Ram?",
+        "Try a contact-oriented setup when you are comfortable planning both the approach and the exit of an attack."
+      ]
+    ]
+  },
+  "updates": {
+    "sections": [
+      {
+        "title": "Release-week changes, with version context",
+        "paragraphs": [
+          "The summaries below cover official announcements reviewed through hotfix 0.9.10. Dates use the announcement’s UTC calendar date; Steam may display a different local day near midnight. Each summary highlights player-relevant changes without copying the full patch text.",
+          "Treat a hotfix as a change to a particular version, not a permanent promise about balance. Use the linked database and guide pages for the parts affected. Individual patch pages are not created.",
+          "For a returning player, read the affected system before deciding to replace a familiar setup. The recent module changes include automatic-versus-active adjustments, while vehicle changes concern handling at different stages. Captain notes reduce particular drawbacks. These are different reasons a run may feel easier or harder, and they should not be condensed into a single claim that every build was buffed.",
+          "The reroll addition is a progression change: collection breadth now has a relationship to extra choices. Artifact-trigger fixes are a different kind of change, concerning whether an existing interaction works as intended. Neither category establishes a new best build. Follow progression for the collection rule and individual records for the specific behavior.",
+          "When an old guide and a recent update seem to disagree, identify the precise claim at issue. A corrected interaction can make an old observation obsolete without invalidating the entire guide. Check the relevant version and component, then reassess the recommendation that depended on it. These summaries help locate that work rather than substituting a headline for every current tooltip."
+        ],
+        "links": [
+          {
+            "label": "Check artifact interactions",
+            "url": "/database/artifacts/"
+          },
+          {
+            "label": "Review vehicle changes",
+            "url": "/database/vehicles/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Roadmap and older demo coverage",
+        "paragraphs": [
+          "The launch announcement said an Early Access roadmap would follow. An older 2025 roadmap is historical and is not substituted for a current plan.",
+          "The September 8 announcement also retired the old demo. Be cautious with demo build videos: they can explain an idea, but their costs, roster, and balance are not automatically current."
+        ],
+        "links": [
+          {
+            "label": "Version-aware progression",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "Current build principles",
+            "url": "/guides/best-build/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "about": {
+    "sections": [
+      {
+        "title": "A reference for players making decisions",
+        "paragraphs": [
+          "Wanderburg Field Guide brings together a wiki, practical guides, a database, build information, and update coverage. Its purpose is to help you find the next useful piece of information: what changed, what a record confirms, or which system a guide explains.",
+          "This is an independent fan resource and is not affiliated with the developer or publisher. It is not Randwerk, Sidekick Publishing, an official support service, or a commercial partner."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "A companion for your next expedition",
+        "paragraphs": [
+          "Use the Wiki to learn how the systems connect, the Guides to solve a practical problem, and the Database to explore equipment and characters. Tier Lists offer situational recommendations, while Updates explain changes that can affect your favorite setup.",
+          "The site is built for quick lookups during play and longer reading between attempts. Related links connect each topic to the next useful question, from learning movement to preparing for a major encounter."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Build advice for different players",
+        "paragraphs": [
+          "Recommendations focus on what a choice helps you do and what it asks of your playstyle. A comfortable beginner setup can differ from a specialized overtime experiment. Read the advantages and tradeoffs with your own goal in mind.",
+          "Wanderburg is in Early Access, so balance and progression can change. Guide advice is independent editorial judgment; the game’s current descriptions remain useful when trying a new combination."
+        ],
+        "links": [
+          {
+            "label": "Build principles",
+            "url": "/guides/best-build/"
+          },
+          {
+            "label": "Database coverage",
+            "url": "/database/"
+          },
+          {
+            "label": "Build comparisons",
+            "url": "/tier-list/"
+          }
+        ],
+        "table": null
+      },
+      {
+        "title": "Artwork, media, and corrections",
+        "paragraphs": [
+          "Official Randwerk screenshots and trailers show the moving castles and combat in action. The site’s navigation icons are original artwork. Videos load when you choose to play them.",
+          "For website corrections or rights questions, see the contact page. This independent fan site is not the game’s developer support service."
+        ],
+        "links": [
+          {
+            "label": "Corrections information",
+            "url": "/contact/"
+          },
+          {
+            "label": "Privacy policy",
+            "url": "/privacy/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "contact": {
+    "sections": [
+      {
+        "title": "Content corrections and missing information",
+        "paragraphs": [
+          "Use this page when preparing a correction to a guide, a database entry, an attribution, or an internal link. Contact details will be added through the site’s configured contact channel. No public email address or functioning submission form is currently configured.",
+          "No submission form is available on this page. Please keep your correction until a contact channel is published."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "What makes a correction actionable",
+        "paragraphs": [
+          "Identify one claim at a time. Include the page path, the wording that appears wrong, the current game version, and a primary source or reproducible observation. Explain whether the information is incorrect, outdated, or merely incomplete.",
+          "For a numerical correction, include the conditions that affect the number, such as rarity or upgrade state. Do not send account credentials, license keys, private conversations, or screenshots containing unrelated personal information."
+        ],
+        "links": [],
+        "table": {
+          "headers": [
+            "Include",
+            "Example of useful detail"
+          ],
+          "rows": [
+            [
+              "Page",
+              "The exact internal URL of the affected record"
+            ],
+            [
+              "Version",
+              "The game version shown in your installation"
+            ],
+            [
+              "Details",
+              "An official announcement or a clear description of an observation"
+            ],
+            [
+              "Correction",
+              "The replacement fact and the scope in which it applies"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Game support is separate from website feedback",
+        "paragraphs": [
+          "This fan site cannot recover Steam accounts, refund purchases, fix save files, or provide developer support. For an issue with the game itself, use the support and community channels linked by the official game listing.",
+          "A website report should concern this resource: a misleading explanation, missing attribution, a broken content link, or a privacy question. Separating those topics helps avoid sending sensitive game-account information to the wrong place."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Rights and privacy requests",
+        "paragraphs": [
+          "When the contact channel becomes available, identify the material or policy involved and describe the request clearly. An ownership concern should point to the specific material; a privacy concern should avoid disclosing more personal data than necessary.",
+          "Read the privacy page for information about search and optional video playback, or About for an introduction to the site."
+        ],
+        "links": [
+          {
+            "label": "Privacy",
+            "url": "/privacy/"
+          },
+          {
+            "label": "Editorial standards",
+            "url": "/about/"
+          },
+          {
+            "label": "Terms",
+            "url": "/terms/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "privacy": {
+    "sections": [
+      {
+        "title": "Scope of this policy",
+        "paragraphs": [
+          "This policy describes the current Wanderburg Field Guide website. It applies to the site’s pages and local search, not to the Wanderburg game, Steam accounts, or the developer’s services. The policy was reviewed on September 13, 2026."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Information used to deliver pages",
+        "paragraphs": [
+          "The site is a static resource. It does not offer visitor accounts, a personal profile database, or a contact form. Ordinary web requests nevertheless reach the hosting provider, which may process an IP address, request time, requested path, browser information, and security-related logs to deliver and protect the service.",
+          "The application does not set a custom retention period for the hosting provider’s operational logs. Do not interpret the absence of an application database as a claim that network requests leave no record."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Search, cookies, and analytics",
+        "paragraphs": [
+          "Search terms are matched in your browser against a downloaded static index. The application does not send your query text to a search service or save a search history. It does not currently install analytics, advertising cookies, or a visitor-tracking SDK.",
+          "Your browser and hosting provider may still maintain ordinary operational information. This policy does not claim that third-party services have the same practices as the site application."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Advertising is currently disabled",
+        "paragraphs": [
+          "The configured advertising provider is none. No Adsterra code, ad requests, or tracking is active in this edition. Reserved integration files alone do not mean the network is in use.",
+          "If advertising is enabled later, the policy must be updated to explain the actual provider and relevant data use and choices before that change is presented as current practice. This paragraph does not consent to or activate a future service."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "YouTube and other third-party media",
+        "paragraphs": [
+          "The official launch trailer uses a click-to-play facade. Before you choose to play, the site does not load the video iframe. Playing it connects your browser to YouTube through its privacy-enhanced embed domain.",
+          "That connection can disclose technical request information, including your IP address, and YouTube’s own policies govern processing by its service. Privacy-enhanced mode is not a promise of anonymity or zero third-party data processing."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Your choices, updates, and contact",
+        "paragraphs": [
+          "You can use the written guides without playing embedded media. Browser settings can limit cookies or other storage, and you can leave a third-party service without using it. There is no site account to delete and no site analytics preference to switch off in the current application.",
+          "Material changes to data use will be reflected in this policy and its review date. Contact details will be added through the site’s configured contact channel; no public inbox is currently available."
+        ],
+        "links": [
+          {
+            "label": "Contact information",
+            "url": "/contact/"
+          },
+          {
+            "label": "About this resource",
+            "url": "/about/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "terms": {
+    "sections": [
+      {
+        "title": "Independent informational use",
+        "paragraphs": [
+          "Wanderburg Field Guide is an independent fan resource and is not affiliated with the developer or publisher. Its pages provide information and editorial guidance about the game. Using the site does not create a relationship with Randwerk or Sidekick Publishing.",
+          "The site does not sell game access, provide account services, or act as official customer support. These terms concern the website, not your license to play Wanderburg or your relationship with Steam."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Accuracy and changing game versions",
+        "paragraphs": [
+          "Content is prepared from the sources and versions identified by the archive. Early Access updates can change mechanics, balance, availability, and progression. A reviewed date indicates when a page was checked; it does not guarantee that every statement remains current indefinitely.",
+          "Guides and comparison criteria are informational. They do not guarantee a win, a particular outcome, or compatibility with every game version. Consult the current game interface when a guide and the installed version differ."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Intellectual property and trademarks",
+        "paragraphs": [
+          "Wanderburg, its game materials, and third-party names and trademarks belong to their respective owners. Their use here identifies the subjects being discussed and does not imply endorsement. Original website writing and internal artwork remain distinct from official game material.",
+          "Do not assume that a link, an embed, or a press asset grants unrestricted rights to reuse someone else’s work. Respect the applicable rights and permissions when sharing or reproducing material."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "External services and acceptable use",
+        "paragraphs": [
+          "Choosing to play an embedded video connects you to a third-party service with its own terms and privacy practices. Availability and behavior of those services are outside this site’s control.",
+          "Use the site without attempting to disrupt access, misuse infrastructure, or misrepresent the origin of its content. No permission to access another person’s account or private information is granted by this website."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Limitations and applicable rights",
+        "paragraphs": [
+          "To the extent permitted by applicable law, the site and its informational content are provided without guarantees of completeness, continuous availability, or fitness for a particular purpose. The operator does not accept liability for losses arising from reliance on incomplete or outdated game guidance where such exclusion is legally permitted.",
+          "Nothing in these terms excludes a right or liability that cannot lawfully be excluded. No jurisdiction or dispute process is invented where the operator has not supplied one."
+        ],
+        "links": [],
+        "table": null
+      },
+      {
+        "title": "Changes and contact",
+        "paragraphs": [
+          "These terms may be updated as the resource or its services change. The review date helps identify the version currently published. For content, rights, or privacy concerns, use the configured contact channel when its details become available."
+        ],
+        "links": [
+          {
+            "label": "Contact",
+            "url": "/contact/"
+          },
+          {
+            "label": "Privacy policy",
+            "url": "/privacy/"
+          },
+          {
+            "label": "Editorial approach",
+            "url": "/about/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": []
+  },
+  "faq": {
+    "sections": [
+      {
+        "title": "Wanderburg questions answered",
+        "paragraphs": [
+          "Find quick answers about playing Wanderburg, choosing equipment, unlocking options, and returning after an update. Follow the linked guides when you want a practical walkthrough."
+        ],
+        "links": [
+          {
+            "label": "Controls and input",
+            "url": "/guides/controls/"
+          },
+          {
+            "label": "Progression",
+            "url": "/guides/progression/"
+          },
+          {
+            "label": "Official-update coverage",
+            "url": "/updates/"
+          }
+        ],
+        "table": null
+      }
+    ],
+    "faq": [
+      [
+        "What is Wanderburg?",
+        "Wanderburg is a single-player action roguelike about driving and expanding a mobile castle. Consume smaller targets, upgrade modules, and fight larger fortresses."
+      ],
+      [
+        "Is Wanderburg a roguelike?",
+        "Yes. Each run combines a procedurally generated map with castle growth and module upgrades. Between runs, unlock more options for future builds."
+      ],
+      [
+        "Is Wanderburg multiplayer?",
+        "Wanderburg is a single-player game."
+      ],
+      [
+        "Is Wanderburg on Steam?",
+        "Yes. The Windows PC version entered Steam Early Access on September 8, 2026."
+      ],
+      [
+        "Is there a console version?",
+        "Wanderburg is available for Windows PC on Steam."
+      ],
+      [
+        "Does Wanderburg support controllers?",
+        "Yes. You can play with mouse, keyboard, or controller. The alternative controller driving style added in 0.9.8 gives you another way to steer; check your in-game controls for bindings."
+      ],
+      [
+        "How do modules work?",
+        "Modules add equipment to the fortress and can be upgraded during a run. Official notes distinguish automatic attacks and active abilities, which can change independently in updates."
+      ],
+      [
+        "What do captains do?",
+        "Captains change your playstyle through character-specific rules and tradeoffs. Consider ability cooldowns, Nitro recovery, boost exposure, cannon damage, or gold when choosing for your run."
+      ],
+      [
+        "Does Wanderburg have progression between runs?",
+        "Yes. Unlock modules, vehicles, artifacts, and captains to open up new build options. Module and artifact unlock counts also add rerolls."
+      ],
+      [
+        "How do I get more build options?",
+        "Use the in-game unlock system to work toward new options. See the progression guide for modules, artifacts, vehicles, and captains."
+      ],
+      [
+        "Is the game still in Early Access?",
+        "Yes. This guide covers Early Access through 0.9.10; balance and content can change with updates."
+      ],
+      [
+        "Can I still use an old demo guide?",
+        "Use the Early Access guides for current play. The demo was retired at launch, and equipment balance and character rules have changed since then."
+      ],
+      [
+        "Does this website collect search queries?",
+        "The application searches a static index locally in your browser. It does not send query text to a search provider."
+      ],
+      [
+        "Is this an official guide?",
+        "No. This is an independent fan resource, not the developer or publisher."
+      ]
+    ]
+  },
+  "guides/beginner-guide": {
+    "sections": [],
+    "faq": [
+      [
+        "What should I prioritize in the first run?",
+        "Comfortable movement, approachable targets, and understanding the equipment already available."
+      ],
+      [
+        "Should I always take more damage?",
+        "Not automatically. If handling or recovery causes the failure, another offensive choice may leave that problem unchanged."
+      ],
+      [
+        "Do I need a specific captain to begin?",
+        "No specific starting requirement is asserted here. Use an available captain whose current rule and drawback you understand."
+      ]
+    ]
+  },
+  "guides/best-build": {
+    "sections": [],
+    "faq": [
+      [
+        "What is a good beginner build approach?",
+        "Use dependable offense and add a response to your main survival problem. Projectile control is worth considering when incoming shots repeatedly interrupt your attacks."
+      ],
+      [
+        "How should I adapt for bosses?",
+        "Prioritize actions you can apply during a safe opening and preserve a way to recover afterward."
+      ],
+      [
+        "When should I try a specialized combination?",
+        "Once movement and the main offensive action feel comfortable, add an artifact or captain interaction that supports your plan."
+      ]
+    ]
+  },
+  "guides/progression": {
+    "sections": [],
+    "faq": [
+      [
+        "What should I focus on between runs?",
+        "Choose a goal: unlock another option, learn a vehicle or captain, or attempt a new difficulty. Keep the next attempt focused on that goal."
+      ],
+      [
+        "Which unlocks add rerolls?",
+        "Modules and artifacts each add a reroll for every six unlocked options in their respective category."
+      ],
+      [
+        "What should I unlock first?",
+        "Choose an option that addresses a specific need in your current playstyle, and check its requirement in the game."
+      ]
+    ]
+  },
+  "guides/controls": {
+    "sections": [],
+    "faq": [
+      [
+        "What key is boost?",
+        "Use the mapping displayed in your installed game rather than a guessed key."
+      ],
+      [
+        "Why does my castle feel different after an update?",
+        "Vehicle handling and Nitro timing have changed in official hotfixes. Also check the selected captain and input configuration."
+      ],
+      [
+        "Is Steam Input required?",
+        "Choose around your current equipment and the goal of the run. Read the in-game description before making the selection."
+      ]
+    ]
+  }
+}

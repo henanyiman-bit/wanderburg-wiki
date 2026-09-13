@@ -1,0 +1,10 @@
+---
+import Icon from '../icons/Icon.astro';
+---
+<div class="search-box" data-search><label class="sr-only" for="portal-search">Search the Wanderburg archive</label><div class="search-input"><Icon name="search"/><input id="portal-search" type="search" placeholder="Search modules, captains, builds, bosses..." autocomplete="off" aria-controls="search-results"/><kbd>/</kbd></div><div id="search-results" class="search-results" aria-live="polite" hidden></div></div>
+<script>
+let index: {title:string;url:string;description:string}[]|undefined;
+const input=document.querySelector<HTMLInputElement>('#portal-search');const results=document.querySelector<HTMLElement>('#search-results');
+async function search(){if(!input||!results)return;const q=input.value.trim().toLowerCase();results.hidden=!q;if(!q){results.replaceChildren();return;}try{index??=await fetch('/search-index.json').then(r=>{if(!r.ok)throw Error();return r.json()});if(input.value.trim().toLowerCase()!==q)return;const matches=(index||[]).filter(p=>(p.title+' '+p.description).toLowerCase().includes(q)).slice(0,8);results.replaceChildren();if(!matches.length)results.textContent='No matching entries. Try “guide”, “modules”, or “controls”.';for(const p of matches){const a=document.createElement('a');a.href=p.url;a.textContent=p.title;results.append(a);}}catch{results.textContent='Search is unavailable. Browse the Wiki or Database using the navigation.'}}
+input?.addEventListener('input',search);document.addEventListener('keydown',e=>{if(e.key==='/'&&!(e.target instanceof HTMLInputElement)&&!(e.target instanceof HTMLTextAreaElement)){e.preventDefault();input?.focus();}if(e.key==='Escape'){if(results)results.hidden=true;input?.blur();}});
+</script>

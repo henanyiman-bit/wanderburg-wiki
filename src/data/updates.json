@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "hotfix-0-9-10",
+    "title": "Hotfix 0.9.10 — Rerolls and captain tradeoffs revised",
+    "date": "2026-09-12",
+    "summary": "Unlocking more modules and artifacts now adds rerolls. Back Turret and Side Arm balance changed, several captain penalties were reduced, and artifact-trigger and allied-stun issues were fixed.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262697139",
+    "version": "0.9.10",
+    "related": [
+      "/guides/progression/",
+      "/tier-list/captains/",
+      "/database/modules/"
+    ]
+  },
+  {
+    "slug": "hotfix-0-9-9",
+    "title": "Hotfix 0.9.9 — Vehicle handling and active abilities adjusted",
+    "date": "2026-09-11",
+    "summary": "Tower and Spider received earlier-level handling changes. Force Mage gained projectile cancellation, Side Ballista shifted power toward its active ability, and boss tombstones became collectible for silver.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262695234",
+    "version": "0.9.9",
+    "related": [
+      "/guides/controls/",
+      "/database/modules/force-mage/",
+      "/bosses/"
+    ]
+  },
+  {
+    "slug": "hotfix-0-9-8",
+    "title": "Hotfix 0.9.8 — Controller alternative and Nitro timing",
+    "date": "2026-09-10",
+    "summary": "An alternative controller driving style was added. The update also addressed Ram damage, player health rounding, Desert overtime, and stability.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262691381",
+    "version": "0.9.8",
+    "related": [
+      "/guides/controls/",
+      "/database/modules/ram/",
+      "/database/biomes/desert/"
+    ]
+  },
+  {
+    "slug": "hotfix-0-9-7",
+    "title": "Hotfix 0.9.7 — Boss-spawn and module fixes",
+    "date": "2026-09-09",
+    "summary": "Boss placement and health-crate interactions were corrected. Front Barracks, Electric Mage, Spider movement, and some late-overtime control interactions also changed.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262689934",
+    "version": "0.9.7",
+    "related": [
+      "/bosses/",
+      "/database/modules/electric-mage/"
+    ]
+  },
+  {
+    "slug": "hotfix-0-9-6",
+    "title": "Hotfix 0.9.6 — Launch-day gameplay adjustments",
+    "date": "2026-09-08",
+    "summary": "The first listed hotfix revised Grassland and Dark Forest encounters, changed several modules, and corrected movement, visuals, and upgrade-selection issues.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262687556",
+    "version": "0.9.6",
+    "related": [
+      "/database/biomes/",
+      "/database/modules/"
+    ]
+  },
+  {
+    "slug": "achievement-rebalancing",
+    "title": "Achievement requirements reduced",
+    "date": "2026-09-10",
+    "summary": "Several cumulative distance, boss-kill, and consumption achievements were made less demanding. The announcement distinguished achievement checks from saved progress; the subsequent 0.9.9 notes report fixes for the win achievements.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262692245",
+    "version": null,
+    "related": [
+      "/guides/progression/"
+    ]
+  },
+  {
+    "slug": "early-access-launch",
+    "title": "Early Access launched; the old demo was retired",
+    "date": "2026-09-08",
+    "summary": "Randwerk and Sidekick confirmed the Steam release and retired the older demo because it no longer represented the release build. The team said an Early Access roadmap would follow; no future feature is treated here as a delivery promise.",
+    "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814455580",
+    "version": null,
+    "related": [
+      "/guides/beginner-guide/",
+      "/faq/"
+    ]
+  }
+]

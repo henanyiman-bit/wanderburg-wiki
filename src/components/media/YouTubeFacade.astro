@@ -1,0 +1,9 @@
+---
+interface Props {videoId:string;title:string}
+const {videoId,title}=Astro.props;
+const valid=/^[A-Za-z0-9_-]{11}$/.test(videoId||'');
+---
+{valid&&<button class="video-facade" data-video={videoId} data-title={title} aria-label={'Play '+title}><span>▶ Play {title}</span><small>YouTube loads only after you choose to play.</small></button>}
+<script>
+document.querySelectorAll<HTMLButtonElement>('[data-video]').forEach(button=>button.addEventListener('click',()=>{const frame=document.createElement('iframe');frame.src='https://www.youtube-nocookie.com/embed/'+button.dataset.video+'?autoplay=1';frame.title=button.dataset.title||'Wanderburg video';frame.loading='lazy';frame.allow='autoplay; encrypted-media; picture-in-picture';frame.allowFullscreen=true;const wrapper=document.createElement('div');wrapper.className='video-facade';wrapper.append(frame);button.replaceWith(wrapper);}));
+</script>

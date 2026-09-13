@@ -1,0 +1,27 @@
+---
+import guideData from '../../data/entity-guides.json';
+import {database,pages,categoryURL,entityURL,type Entity} from '../../lib/data';
+import PageMediaBlock from '../media/PageMediaBlock.astro';
+interface Guide {intro:string;sections:{title:string;paragraphs:string[]}[];faq:string[][];related:string[]}
+interface Props {entity:Entity;type:string}
+const {entity,type}=Astro.props;
+const guide=(guideData as Record<string,Guide>)[entity.slug];
+const sections=guide?.sections.filter(s=>s.paragraphs.some(p=>p.trim()))||[];
+const facts=[['Category',type[0].toUpperCase()+type.slice(1)],...(entity.role?[['Role',entity.role]]:[]),...(entity.effect?[['Effect',entity.effect]]:[]),...Object.entries(entity.stats).filter(([,v])=>v!==null&&v!==''),...(entity.howToGet?[['Unlock',entity.howToGet]]:[])];
+const allEntities=Object.entries(database).flatMap(([kind,entries])=>entries.map(e=>({url:entityURL(kind,e.slug),label:e.name,kind})));
+const links=[...new Set(guide?.related||entity.related)].filter(url=>url!==entityURL(type,entity.slug)).map(url=>{const e=allEntities.find(e=>e.url===url);const p=pages.find(p=>'/'+p.slug+'/'===url);return {url,label:e?.label||p?.title.replace('Wanderburg ','').replace('Best Builds and Build Principles','Best Builds')||url,group:e?'Related '+e.kind:'Related guides'};});
+const groups=[...new Set(links.map(l=>l.group))];
+---
+<div class="article-layout">
+ <aside class="toc"><strong>ON THIS PAGE</strong><a href="#entity-facts">Quick facts</a>{sections.map((s,i)=><a href={'#entity-section-'+(i+1)}>{s.title}</a>)}{guide?.faq.length>0&&<a href="#entity-faq">FAQ</a>}<a href="#entity-related">Related content</a></aside>
+ <article>
+  <section class="quick-answer" id="entity-facts"><h2>Quick facts</h2><div class="table-wrap"><table><tbody>{facts.map(([name,value])=><tr><th scope="row">{name}</th><td>{value}</td></tr>)}</tbody></table></div></section>
+  <PageMediaBlock page={entityURL(type,entity.slug)}/>
+  {sections.map((s,i)=><section class="step-card" id={'entity-section-'+(i+1)}><span class="eyebrow">{i===0?'GAMEPLAY OVERVIEW':'GUIDE ADVICE'}</span><h2>{s.title}</h2>{s.paragraphs.filter(p=>p.trim()).map(p=><p>{p}</p>)}</section>)}
+  {entity.verifiedVersion&&<section class="step-card"><h2>Patch notes</h2><p>{entity.summary}</p><a class="card-link" href={'/updates/#hotfix-'+entity.verifiedVersion.replaceAll('.','-')}>Hotfix {entity.verifiedVersion} →</a></section>}
+  {guide?.faq.length>0&&<section class="section" id="entity-faq"><h2>{entity.name} FAQ</h2><div class="faq">{guide.faq.filter(([q,a])=>q&&a).map(([q,a])=><details><summary>{q}</summary><p>{a}</p></details>)}</div></section>}
+  {links.length>0&&<section class="section" id="entity-related"><h2>Related content</h2>{groups.map(group=><div><h3>{group[0].toUpperCase()+group.slice(1)}</h3><div class="content-links">{links.filter(l=>l.group===group).map(l=><a href={l.url}>{l.label} →</a>)}</div></div>)}</section>}
+  <a class="card-link" href={categoryURL(type)}>Back to {type[0].toUpperCase()+type.slice(1)} →</a>
+  <section class="section"><h2>Continue exploring</h2><div class="content-links"><a href="/wiki/">Wanderburg Wiki →</a><a href="/database/">All database categories →</a></div></section>
+ </article>
+</div>

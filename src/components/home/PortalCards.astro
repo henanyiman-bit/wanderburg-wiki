@@ -1,0 +1,5 @@
+---
+import Icon from '../icons/Icon.astro';
+const cards=[['guide','Beginner Guide','Your first expedition','/guides/beginner-guide/'],['builds','Builds','Find your playstyle','/guides/best-build/'],['modules','Modules','The siege workshop','/database/modules/'],['captains','Captains','Meet the command','/database/captains/'],['artifacts','Artifacts','Explore the collection','/database/artifacts/'],['vehicles','Vehicles','Choose your moving fortress','/database/vehicles/'],['tier','Tier List','Find your next pick','/tier-list/'],['bosses','Bosses','The encounter archive','/bosses/'],['biomes','Biomes','Beyond the castle walls','/database/biomes/'],['updates','Updates','The latest dispatches','/updates/']];
+---
+<div class="portal-grid">{cards.map(([icon,title,desc,url])=><a class="portal-card" href={url}><span class="icon-box"><Icon name={icon}/></span><span><strong>{title}</strong><small>{desc}</small></span><span class="arrow">↗</span></a>)}</div>

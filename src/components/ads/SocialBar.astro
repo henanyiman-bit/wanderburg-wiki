@@ -1,0 +1,7 @@
+---
+import embeds from '../../data/adsterra.json';
+const key=import.meta.env.PUBLIC_ADSTERRA_SOCIAL_BAR_KEY;
+const embed=embeds.social as string|null;
+const enabled=import.meta.env.PUBLIC_AD_PROVIDER==='adsterra'&&!!key&&!!embed&&embed.includes(key);
+---
+{enabled&&<Fragment set:html={embed}/>}

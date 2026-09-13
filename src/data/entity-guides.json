@@ -1,0 +1,1544 @@
+{
+  "force-mage": {
+    "intro": "Force Mage adds an active response to incoming projectiles. Use it to support a defensive or hybrid build when shots are making it difficult to hold a useful position and apply your offense.",
+    "sections": [
+      {
+        "title": "What Force Mage does",
+        "paragraphs": [
+          "Force Mage’s active ability can cancel incoming projectiles. This behavior was added in hotfix 0.9.9. Its distinctive role is projectile control: it gives you an action directed at an incoming threat, rather than asking you to solve every dangerous situation by defeating the attacker first.",
+          "Keep that role in mind when choosing equipment. The question is whether an answer to projectiles would improve the way your current castle survives and fights. It is a different decision from selecting another offensive action to finish targets more quickly."
+        ]
+      },
+      {
+        "title": "How projectile control changes defensive play",
+        "paragraphs": [
+          "Guide advice: think of cancellation as another decision you can make during an approach. Steering still determines where the castle goes, but an active defensive response gives you something else to consider when incoming shots interrupt that route. Look at the threat and your next position together.",
+          "For example, if you repeatedly abandon an otherwise useful attack because projectiles approach, Force Mage is worth considering. The purpose is to create a more manageable situation for your existing offense. Do not turn that possibility into a reason to remain surrounded or ignore a clear route away."
+        ]
+      },
+      {
+        "title": "When to choose Force Mage",
+        "paragraphs": [
+          "Choose it for a problem you can recognize: incoming projectiles repeatedly disrupt your attacks, make a planned approach uncomfortable, or force you to spend movement resources earlier than intended. Those situations make projectile control relevant to the next fight.",
+          "If the problem is instead that your attacks contribute little during safe openings, compare another offensive option first. Force Mage’s cancellation role does not by itself answer that damage question. A defensive selection is most useful when you understand what it protects your build from and what the rest of your equipment will do afterward."
+        ]
+      },
+      {
+        "title": "Why timing matters",
+        "paragraphs": [
+          "An active response needs your attention. Before a committed approach, check whether the ability is available and identify the incoming threat you expect to answer. Watch the result when you activate it, then decide where to move next. This connects the action to a purpose instead of using it automatically whenever it is ready.",
+          "Avoid waiting for an imagined last possible instant while learning. Begin in a situation you can read, practice responding to visible projectiles, and keep an escape route. If the action is unavailable during the next approach, change the approach rather than expecting the same protection on every pass."
+        ]
+      },
+      {
+        "title": "Defensive and hybrid build advice",
+        "paragraphs": [
+          "For a defensive approach, use Force Mage to address projectile pressure while your familiar offense remains the main way to remove threats. Try the equipment you already understand before changing the entire loadout. This makes it easier to notice whether cancellation is helping with the specific problem that led you to choose it.",
+          "For a hybrid approach, plan an offensive action and a recovery action together. Side Ballista or Front Barracks are active-ability choices to explore, but their usefulness still depends on how you apply them. These are complementary roles to consider, not a special damage bonus or a guaranteed combination.",
+          "Captain rules matter to an active plan. Huntress has an ability-cooldown drawback, so read that tradeoff before relying on frequent defensive responses. A stronger offensive ability does not remove the need to consider when your defensive action will next be available."
+        ]
+      },
+      {
+        "title": "Strengths and tradeoffs",
+        "paragraphs": [
+          "The main strength is a direct answer to incoming projectiles. That makes Force Mage a purposeful consideration in encounters where shots are the source of repeated trouble. It can support a player who already likes their offense and wants another way to manage exposure.",
+          "The tradeoff is attention and availability: you need to recognize the situation, use the action, and continue steering. Treat cancellation as a response to projectiles rather than general invulnerability. If several kinds of threat arrive together, reducing the number of simultaneous problems through movement is still valuable."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Practice a simple sequence: identify incoming shots, check readiness, use the ability deliberately, and watch what remains dangerous afterward. Keep the surrounding encounter manageable enough to understand the result. Once the sequence feels comfortable, combine it with your usual offensive approach.",
+          "A common mistake is judging the choice only by outgoing damage. Another is assuming one successful cancellation means the next approach can ignore positioning. A third is changing captain, vehicle, and offense at the same time, making it difficult to tell what improved. Keep the experiment focused on projectile pressure."
+        ]
+      },
+      {
+        "title": "Compare with other modules",
+        "paragraphs": [
+          "Electric Mage is the nearby comparison for control, but its stun-capable action asks a different question: how the target responds to an interruption. Force Mage asks whether an incoming projectile can be canceled. Choose according to the threat you are trying to manage.",
+          "Ram offers a more committed contact-oriented approach. If you are exploring that style, consider both reaching the target and leaving after the attack. Projectile control can be part of your planning, but it is not a substitute for learning the route through the engagement."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What does Force Mage do?",
+        "Its active ability can cancel incoming projectiles. This gives it a projectile-control role in your equipment choices."
+      ],
+      [
+        "When should I choose Force Mage?",
+        "Consider it when incoming shots repeatedly interrupt a useful approach or force you away from your offense. Choose for that problem rather than for an assumed damage increase."
+      ],
+      [
+        "Is it an offensive or defensive choice?",
+        "The cancellation behavior is a defensive tool. In a hybrid build, use that response alongside offense you can already apply reliably."
+      ],
+      [
+        "Does it replace movement?",
+        "No. Continue planning an exit and watching the threats that remain after using the ability."
+      ],
+      [
+        "What changed in 0.9.9?",
+        "Hotfix 0.9.9 added projectile cancellation to the active ability."
+      ]
+    ],
+    "related": [
+      "/database/modules/electric-mage/",
+      "/database/modules/side-ballista/",
+      "/database/modules/ram/",
+      "/database/captains/huntress/",
+      "/guides/beginner-guide/",
+      "/guides/best-build/",
+      "/guides/progression/"
+    ]
+  },
+  "front-barracks": {
+    "intro": "Front Barracks is an offensive module with an active ability. Build around deliberate ability use: create a workable approach, use the action during a useful opportunity, and preserve room to recover.",
+    "sections": [
+      {
+        "title": "What Front Barracks is",
+        "paragraphs": [
+          "Front Barracks supplies offense through a module with an active ability. Hotfix 0.9.9 strengthened that ability and corrected its diminishing-damage upgrades. The distinction between an ability and ordinary offense matters when you decide how much attention to give this equipment.",
+          "Read the current action description when choosing an upgrade. An improvement to an active action is most relevant when you make room to use it during fights, rather than expecting the automatic part of your setup to do all the work."
+        ]
+      },
+      {
+        "title": "How to give the ability a useful job",
+        "paragraphs": [
+          "Guide advice: decide what opportunity you want to use before approaching. Bring the fortress into a situation where you can activate the action without losing track of your route. Afterward, notice whether the target remains dangerous and whether you have space for another pass.",
+          "This is a practical way to judge contribution. Reaching the target and pressing the action are only part of the sequence; the position after the attack determines how comfortably you can continue."
+        ]
+      },
+      {
+        "title": "When to choose it",
+        "paragraphs": [
+          "Consider Front Barracks when you want to engage more deliberately with active offense. It suits an experiment in creating openings and using them, especially if your current problem is that you reach opportunities but do little with them.",
+          "If you are already struggling to steer and activate the equipment you have, learn that sequence before adding another unfamiliar action. The choice should solve a combat problem you can describe, not simply add another name to a hoped-for build."
+        ]
+      },
+      {
+        "title": "Strengths and tradeoffs",
+        "paragraphs": [
+          "The active ability gives you an offensive action to plan around. That is a useful focus for players who enjoy deciding when to commit rather than judging a setup solely by its unattended attacks. The 0.9.9 change makes current ability use particularly relevant when returning from an older version.",
+          "The practical tradeoff is the interval between useful actions. Watch what your castle does while the action is unavailable. A plan that only feels comfortable at the moment of activation needs more attention to movement and its remaining offense."
+        ]
+      },
+      {
+        "title": "Build considerations and related choices",
+        "paragraphs": [
+          "Compare Front Barracks with Side Ballista when exploring active-focused offense. The latter shifted strength toward its active action in 0.9.9. Consider which action you can apply more comfortably, rather than treating the direction of a patch change as a universal ordering.",
+          "Force Mage is a role comparison when incoming projectiles prevent you from taking an opening. Huntress is a captain consideration because her cooldown drawback affects an ability-centered plan. These links help you examine the whole sequence of offense and recovery; they are not a promise of a special interaction."
+        ]
+      },
+      {
+        "title": "Beginner routine and mistakes to avoid",
+        "paragraphs": [
+          "Start with familiar steering and one clear offensive opportunity. Check readiness, approach, activate, and reassess. If the action contributes but leaves you exposed, change the line of approach before replacing the entire setup.",
+          "Avoid spending every selection on stronger offense while overlooking why the previous attack was unsafe. Also avoid comparing a current upgraded ability with an older automatic-fire demonstration. Keep rarity, upgrade stage, and the action being compared in mind when deciding what to keep."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What role does Front Barracks fill?",
+        "It is an offensive module with an active ability, useful to consider when planning deliberate attacks."
+      ],
+      [
+        "What changed in 0.9.9?",
+        "The active ability was strengthened, and diminishing-damage upgrades were corrected."
+      ],
+      [
+        "How should a beginner try it?",
+        "Keep a familiar vehicle, practice one approach and activation, then inspect the position left after the attack."
+      ],
+      [
+        "What should I compare it with?",
+        "Side Ballista is another active-offense option to explore. Consider Force Mage separately when the missing role is projectile control."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-ballista/",
+      "/database/modules/force-mage/",
+      "/database/captains/huntress/",
+      "/guides/best-build/",
+      "/guides/beginner-guide/"
+    ]
+  },
+  "side-ballista": {
+    "intro": "Side Ballista combines automatic offense with an active ability. Its balance shifted toward the active action in 0.9.9, making your pattern of ability use important when choosing it for a build.",
+    "sections": [
+      {
+        "title": "How Side Ballista works",
+        "paragraphs": [
+          "Side Ballista has an automatic attack and an active ability. Hotfix 0.9.9 weakened the automatic attack while strengthening the active ability. These are two different changes within the same module, so the value of the change depends on which part you use.",
+          "For a returning player, the practical question is how much your previous setup relied on automatic fire. An old comfortable routine may need more deliberate ability use if you want to explore what the newer version offers."
+        ]
+      },
+      {
+        "title": "Role in an active build",
+        "paragraphs": [
+          "Guide advice: treat the active action as an opportunity to plan, not an extra button to press without looking. Identify a useful opening, check readiness, and make the approach with a continuation in mind. Keep watching the castle after the action rather than following only the attack.",
+          "A setup can have an attractive active action and still feel awkward if you repeatedly reach targets while it is unavailable. Pay attention to the sequence across several approaches, including the time spent relying on other offense."
+        ]
+      },
+      {
+        "title": "When to choose Side Ballista",
+        "paragraphs": [
+          "Consider it when you enjoy active offense and are comfortable dividing attention between steering and ability use. It is also worth revisiting if you dismissed the active action before the 0.9.9 change.",
+          "If your preferred style relies heavily on automatic attacks, compare that part directly with alternatives such as Side Arm. Do not assume an active-ability improvement delivers the same benefit to an automatic-focused setup. The decision should match what you actually use during combat."
+        ]
+      },
+      {
+        "title": "Strengths and weaknesses to weigh",
+        "paragraphs": [
+          "The combination of automatic and active components gives you two parts to assess within one offensive choice. For an ability-focused player, the active side provides a deliberate contribution to plan around.",
+          "The main practical weakness to watch is a mismatch between the choice and your habits. If you rarely activate the ability, your experience will lean toward the automatic component that was reduced in 0.9.9. If you focus only on activation, you may overlook unsafe movement or the interval before the next useful opportunity."
+        ]
+      },
+      {
+        "title": "Complementary roles and captain considerations",
+        "paragraphs": [
+          "Front Barracks is a useful comparison when selecting an active offensive plan. Force Mage addresses a different role: answering incoming projectiles that disrupt an approach. Compare the missing function first, rather than treating every equipment choice as another damage ranking.",
+          "Huntress deserves attention in an ability-centered setup because of her cooldown drawback. Read the character rule alongside the action you want to repeat. That interaction is a timing consideration; it does not automatically make the captain a preferred pairing or a choice to reject."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Begin by noticing when automatic attacks contribute and when the active action changes the situation. Try a manageable encounter so the two are easier to distinguish. Keep your vehicle and captain familiar while learning that difference.",
+          "Avoid calling the module stronger or weaker based on one patch sentence. Avoid copying a demonstration without checking which component it emphasizes. Most of all, avoid activating into a poor route just because the ability is ready: the next position remains part of the offensive decision."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed for Side Ballista?",
+        "Hotfix 0.9.9 reduced automatic attack strength and increased active ability strength."
+      ],
+      [
+        "Who should consider it?",
+        "Players interested in deliberate ability use can explore its active-focused role. Automatic-focused players should compare the automatic component separately."
+      ],
+      [
+        "Is it always better than Side Arm?",
+        "Choose according to the action your build uses and the conditions of the run. They should be compared at similar rarity and upgrade stages."
+      ],
+      [
+        "What is a useful first exercise?",
+        "Observe an approach using ordinary offense, then deliberately use the active action during a manageable opportunity and compare the sequence."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-arm/",
+      "/database/modules/front-barracks/",
+      "/database/modules/force-mage/",
+      "/database/captains/huntress/",
+      "/guides/best-build/",
+      "/guides/beginner-guide/"
+    ]
+  },
+  "electric-mage": {
+    "intro": "Electric Mage is a top-mounted control module with a stun-capable active ability. Consider its role when you want to interrupt a threat and create a more manageable moment for movement or offense.",
+    "sections": [
+      {
+        "title": "What Electric Mage does",
+        "paragraphs": [
+          "Electric Mage has an active ability that can stun. Hotfix 0.9.10 fixed the action so that allied units are excluded from its stun effect. Its control role is distinct from an equipment choice evaluated only by outgoing damage.",
+          "Think about what you want to do after an interruption: continue an attack, change your line, or leave a crowded situation. The action becomes easier to evaluate when it serves a clear next decision."
+        ]
+      },
+      {
+        "title": "Using control during an encounter",
+        "paragraphs": [
+          "Guide advice: identify the target causing trouble and watch how it responds when you use the ability. Connect that observation to the next movement of the fortress. Control is most useful to your plan when you make use of the changed situation rather than remain in the same awkward position.",
+          "Keep the first experiment readable. Several overlapping enemies and attacks can make it difficult to understand which problem an action answered. Try to reduce competing threats through positioning before deciding whether a control choice fits your setup."
+        ]
+      },
+      {
+        "title": "When to choose it",
+        "paragraphs": [
+          "Consider Electric Mage when you want to explore interruption as part of a combat sequence. If an opponent repeatedly makes it difficult to continue your usual offense, a control-focused action offers another question to try besides increasing damage.",
+          "Choose by the actual problem, however. If incoming projectiles are the specific issue, compare Force Mage’s cancellation role. If you comfortably create opportunities but cannot capitalize on them, another offensive module may deserve attention first."
+        ]
+      },
+      {
+        "title": "Strengths and limitations",
+        "paragraphs": [
+          "Its defining strength is a stun-capable active action, giving a build a control function to plan around. The allied-unit fix also matters when revisiting older experiences of the module.",
+          "The practical limitation is assuming the same response from every target. Watch the opponent and keep an alternative route if the result differs from your expectation. Do not build an entire approach around remaining safe indefinitely after activation; readiness and the next movement decision still matter."
+        ]
+      },
+      {
+        "title": "Build and captain considerations",
+        "paragraphs": [
+          "Use Electric Mage alongside offense you understand so you can recognize whether the interruption improves your sequence. Ram is a useful comparison for how much the castle commits to an attack; Side Ballista is a comparison for a more active-focused offensive routine. These are planning relationships, not special combination effects.",
+          "With Huntress, consider the cooldown drawback before depending on repeated control opportunities. A captain rule that changes ability timing belongs in the same plan as the offensive action you expect to use during an opening."
+        ]
+      },
+      {
+        "title": "Beginner advice and mistakes",
+        "paragraphs": [
+          "Practice activation followed by a purposeful action. After watching the target respond, either use the opportunity or move to a safer line. This develops a sequence rather than a habit of pressing the ability simply because it is available.",
+          "Avoid treating control and projectile cancellation as identical. Avoid judging the action only by direct damage. If the intended target does not respond as expected, reposition and reassess instead of repeating a committed approach without learning from the result."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What is Electric Mage’s role?",
+        "It provides control through a stun-capable active ability."
+      ],
+      [
+        "What changed in 0.9.10?",
+        "The ability was fixed so allied units are excluded from its stun effect."
+      ],
+      [
+        "How does it differ from Force Mage?",
+        "Electric Mage offers a stun action; Force Mage can cancel incoming projectiles. They answer different combat questions."
+      ],
+      [
+        "What should I do after using it?",
+        "As a practical approach, use the changed situation for your next attack or movement decision instead of assuming the action solves the whole encounter."
+      ]
+    ],
+    "related": [
+      "/database/modules/force-mage/",
+      "/database/modules/ram/",
+      "/database/modules/side-ballista/",
+      "/database/captains/huntress/",
+      "/guides/best-build/",
+      "/bosses/"
+    ]
+  },
+  "back-turret": {
+    "intro": "Back Turret is an offensive module whose attack-speed scaling changed in 0.9.10. Consider how its contribution develops through your run rather than judging it only by an older high-speed demonstration.",
+    "sections": [
+      {
+        "title": "What Back Turret is",
+        "paragraphs": [
+          "Back Turret is an offensive equipment choice. Hotfix 0.9.10 lowered its maximum attack-speed boost. A change to the maximum is most relevant when thinking about the upper end of that improvement, rather than treating every stage of the module as the same situation.",
+          "Read upgrade choices in terms of the offense you currently use. A promising later state is only one part of a run that also has to survive earlier encounters and reach useful attack positions."
+        ]
+      },
+      {
+        "title": "How to evaluate its offense",
+        "paragraphs": [
+          "Guide advice: watch whether the module contributes during the approaches your vehicle can comfortably make. Look beyond the appearance of rapid attacks and ask whether the current sequence helps remove the threat you are fighting. Keep rarity and upgrade stage in mind when making a comparison.",
+          "This is especially useful after a balance change. A run that feels different from an older video may involve another stage of progression as well as different equipment values. Compare the part of the experience that matters to your current choice."
+        ]
+      },
+      {
+        "title": "When to choose or revisit it",
+        "paragraphs": [
+          "Consider Back Turret when you are examining offensive options and want to understand how attack-speed improvements fit your setup. Returning players who built around its maximum boost should revisit the current upgrade description before repeating the same expectations.",
+          "If your main problem is reaching or leaving a useful position, changing offense alone may not resolve it. Keep the vehicle’s route in the decision. The module should support the way you fight, rather than require you to ignore the movement problem that keeps ending attempts."
+        ]
+      },
+      {
+        "title": "Strengths and tradeoffs",
+        "paragraphs": [
+          "Its offensive role gives you a concrete contribution to investigate alongside your existing equipment. Attack speed is a useful aspect to observe when an engagement gives you repeated opportunities to apply offense.",
+          "The tradeoff is overcommitting to a later upgrade idea while the current run needs another function. A maximum-speed demonstration can be appealing, but the choices leading toward it still need to work against the threats in front of you. Reassess if the setup repeatedly fails before that point."
+        ]
+      },
+      {
+        "title": "Build comparisons",
+        "paragraphs": [
+          "Side Arm offers another offensive comparison, with rarity-based changes affecting both automatic attacks and its active ability. Side Ballista is useful when considering how much you want to emphasize active offense. Compare the relevant component rather than trying to infer a universal order from their patch histories.",
+          "Force Mage is a separate consideration if incoming projectiles prevent your offense from contributing. Adding a defensive role may be more relevant than chasing another offensive improvement in that situation. The choice depends on why your attacks are being interrupted."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Use the module on a familiar platform and pay attention to its contribution before and after an upgrade. Keep the encounter manageable enough to notice what changed. Avoid changing several major parts of the setup at once when learning how it feels.",
+          "Do not interpret a reduction to a maximum as a reason never to use an item. Equally, do not rely on an older ceiling as a guarantee for a current build. Make the next selection around the current action and the next fight, not only an ideal final state."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed for Back Turret?",
+        "Hotfix 0.9.10 lowered its maximum attack-speed boost."
+      ],
+      [
+        "Should I stop using it after that change?",
+        "Reassess its contribution to your current setup. A change to one aspect does not decide whether it fits every run."
+      ],
+      [
+        "What should I compare?",
+        "Compare similar rarity and upgrade stages, and watch how useful the offense is during approaches you can repeat comfortably."
+      ],
+      [
+        "What mistake should beginners avoid?",
+        "Do not chase a later attack-speed plan while ignoring a survival or positioning problem in the current run."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-arm/",
+      "/database/modules/side-ballista/",
+      "/database/modules/force-mage/",
+      "/guides/best-build/",
+      "/tier-list/modules/"
+    ]
+  },
+  "side-arm": {
+    "intro": "Side Arm is an offensive module with automatic attacks and an active ability. Its rarity-based damage scaling improved in 0.9.10, making both components worth considering in a practical offensive setup.",
+    "sections": [
+      {
+        "title": "How Side Arm works",
+        "paragraphs": [
+          "Side Arm has automatic attacks and an active ability. Hotfix 0.9.10 increased rarity-based damage scaling for both. That means the patch concerned both parts of its offense, rather than shifting strength from one component toward the other.",
+          "When comparing choices, keep rarity in the comparison. A stronger-looking example from a different rarity or upgrade stage can obscure the decision you are making with the options currently available."
+        ]
+      },
+      {
+        "title": "Role in a build",
+        "paragraphs": [
+          "Guide advice: evaluate Side Arm as offense you want to apply during repeatable approaches. Notice what the automatic component contributes while you steer, then identify what the active action adds when you use it deliberately. These observations help you decide which upgrades support your habits.",
+          "A comfortable build does not require every action to demand attention at once. If steering is still taking most of yours, practice the active action in a manageable situation rather than expecting to master it during the most crowded fight."
+        ]
+      },
+      {
+        "title": "When to consider it",
+        "paragraphs": [
+          "Consider Side Arm when comparing offensive equipment that includes both automatic and active contributions. It is a useful option to revisit after 0.9.10 if you want to see how the rarity-based improvements affect a familiar plan.",
+          "Choose it for a damage problem you can identify. If you already apply offense well but incoming attacks force repeated retreats, another offensive selection may leave the real issue unchanged. In that case, examine positioning or a complementary defensive role."
+        ]
+      },
+      {
+        "title": "Strengths and practical tradeoffs",
+        "paragraphs": [
+          "Both offensive components benefited from the rarity-based change. This makes Side Arm relevant to a comparison that considers the whole action pattern rather than only a single activation.",
+          "The main decision cost is assuming the buff alone makes it the answer to every build. Your vehicle, captain, upgrade state, and ability use still influence how comfortable the offense is to apply. Watch the full engagement, including recovery after an attack, rather than only the moment that looks strongest."
+        ]
+      },
+      {
+        "title": "Related modules and captain rules",
+        "paragraphs": [
+          "Side Ballista is the clearest comparison for the automatic-versus-active question: its 0.9.9 change moved the two components in opposite directions. Front Barracks offers another active offensive plan to explore. Compare based on the action you actually intend to emphasize.",
+          "If your setup becomes active-heavy, include Huntress’s cooldown drawback in the timing decision. If projectiles are disrupting that routine, Force Mage is worth reading for its different role. Neither link implies an extra pairing bonus; each addresses a practical part of the combat sequence."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Observe ordinary offense first, then use the active action with a clear target opportunity in mind. After the approach, notice whether you need a safer exit, a better-timed activation, or more offensive contribution. Change the part that caused trouble.",
+          "Avoid comparing a high-rarity demonstration with a different option in an early run as though only the name changed. Avoid selecting more offense simply because the latest patch improved it. A buff is a reason to look again; your current problem is the reason to choose."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What did 0.9.10 change?",
+        "Rarity-based damage scaling improved for both automatic attacks and the active ability."
+      ],
+      [
+        "How is it different from Side Ballista’s update?",
+        "Side Arm improved in both components, while Side Ballista’s 0.9.9 update reduced automatic strength and increased active strength."
+      ],
+      [
+        "Should I focus only on the active action?",
+        "Watch both components and decide which one matters most to your own movement and attack routine."
+      ],
+      [
+        "What is a useful comparison condition?",
+        "Use similar rarity and upgrade stages, then compare offense during approaches you can apply consistently."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-ballista/",
+      "/database/modules/front-barracks/",
+      "/database/modules/force-mage/",
+      "/database/captains/huntress/",
+      "/guides/best-build/"
+    ]
+  },
+  "ram": {
+    "intro": "Ram supports contact-oriented offense, making the castle’s approach and recovery central to the attack. Choose it as a driving-and-combat experiment, with as much attention to the exit as to reaching the target.",
+    "sections": [
+      {
+        "title": "What Ram does",
+        "paragraphs": [
+          "Ram is a module with contact-oriented behavior. Hotfix 0.9.8 fixed inconsistent damage following earlier behavior and visual corrections. Its role puts the movement of the vehicle itself at the center of how you apply the attack.",
+          "This makes it a different practical question from activating offense while concentrating on a more distant route. You need to understand how the fortress reaches the target and where that commitment leaves you."
+        ]
+      },
+      {
+        "title": "Plan the entire pass",
+        "paragraphs": [
+          "Guide advice: look at the target, the approach, and the space beyond it before committing. A useful pass should include a way to continue or turn away if the opponent remains dangerous. Getting close is the beginning of the decision, not proof that the attack is a good trade.",
+          "After a difficult pass, identify what failed. Missing the intended line suggests an approach problem; landing the action and ending among other threats suggests a recovery problem. Those call for different adjustments."
+        ]
+      },
+      {
+        "title": "When to choose Ram",
+        "paragraphs": [
+          "Consider Ram when you enjoy active vehicle maneuvers and want to make driving part of the offensive plan. It is a more manageable experiment once you can steer a familiar platform comfortably through a chosen route.",
+          "If you are still struggling to control turns and direction changes, practice those first. The next equipment choice does not have to add more commitment while you learn the platform. You can return to a contact approach once you can anticipate where the castle will finish."
+        ]
+      },
+      {
+        "title": "Strengths and tradeoffs",
+        "paragraphs": [
+          "The appeal of contact-oriented play is a clear connection between driving and offense. It gives each approach a purpose and rewards paying attention to the entire path through an engagement.",
+          "The tradeoff is exposure and commitment. An impressive hit can still leave you in a worse position, especially when several threats overlap. Judge whether the sequence is repeatable without relying on every attack finishing the target immediately. Keep an alternative route when the approach becomes crowded."
+        ]
+      },
+      {
+        "title": "Vehicle, captain, and module considerations",
+        "paragraphs": [
+          "Tower and Spider are useful vehicle pages to read when thinking about platform handling. Learn the chosen platform before attributing an awkward pass to Ram itself. Starting movement and later upgrades can produce different experiences.",
+          "Duelist’s additional incoming damage while boosting and Tankbert’s Nitro-recovery drawback are relevant risks to consider if boosting is part of your approach. They are not automatic Ram recommendations. Force Mage offers a different role to examine when projectiles complicate the line you want to take."
+        ]
+      },
+      {
+        "title": "Beginner routine and mistakes",
+        "paragraphs": [
+          "Practice with one familiar vehicle and an uncomplicated approach. Decide where to go afterward, make the pass, and inspect the result. If the exit is uncomfortable, use the next attempt to change the route rather than immediately adding another unfamiliar captain rule.",
+          "Avoid boosting toward every target without considering recovery. Avoid repeating a failed line simply because the first hit looked promising. Finally, use current behavior when judging damage consistency: the module received a relevant fix in 0.9.8, so older collision experiences may feel different."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What kind of module is Ram?",
+        "It is a contact-oriented offensive module that makes vehicle positioning central to its use."
+      ],
+      [
+        "What changed in 0.9.8?",
+        "The hotfix corrected inconsistent damage."
+      ],
+      [
+        "Is Ram a good first experiment?",
+        "It is easier to learn after steering feels comfortable. Use a familiar vehicle and practice an approach with a clear continuation."
+      ],
+      [
+        "Does boosting always make a pass safer?",
+        "Plan around Nitro availability and your captain’s rule. Duelist has a damage drawback during boost, so boost itself is not a universal safety plan."
+      ]
+    ],
+    "related": [
+      "/database/modules/force-mage/",
+      "/database/vehicles/tower/",
+      "/database/vehicles/spider/",
+      "/database/captains/duelist/",
+      "/database/captains/tankbert/",
+      "/guides/controls/",
+      "/guides/best-build/"
+    ]
+  },
+  "top-mortar": {
+    "intro": "Top Mortar is a top-mounted offensive module with a projectile-firing active ability. Plan its use around a worthwhile opportunity and compare its current action with the other offense your build already has.",
+    "sections": [
+      {
+        "title": "What Top Mortar is",
+        "paragraphs": [
+          "Top Mortar has a projectile-firing active ability. Hotfix 0.9.6 reduced the number of projectiles fired by that action. For a returning player, the active sequence is therefore the part to revisit when comparing current play with a launch-era demonstration.",
+          "The module’s name and the appearance of an attack are useful starting points, but the practical choice is how its current action fits the encounter. Look at what it contributes when you use it, not only how many projectiles a clip appears to show."
+        ]
+      },
+      {
+        "title": "How to plan an activation",
+        "paragraphs": [
+          "Guide advice: bring the fortress into a readable situation, identify the opportunity you want to use, and activate with enough attention left for the next movement decision. Notice whether the action helped with the intended threat.",
+          "A crowded scene can look effective while leaving the immediate dangerous target unresolved. Separate pressure across a scene from the contribution that matters to your next move. This helps you decide whether the action fits ordinary encounters or a particular major-fight opening."
+        ]
+      },
+      {
+        "title": "When to choose it",
+        "paragraphs": [
+          "Consider Top Mortar when exploring projectile-based active offense. It is useful to compare when you are comfortable with your vehicle and want to change the offensive action around which you plan an approach.",
+          "If you already struggle to use available abilities on purpose, practice the existing routine first. A new projectile action should not become another distraction while the castle drifts into danger. Learn the sequence in manageable encounters before building the entire run around it."
+        ]
+      },
+      {
+        "title": "Strengths and tradeoffs",
+        "paragraphs": [
+          "A projectile-firing active action gives you a deliberate offensive option to evaluate during openings. It can be the focus of a build experiment in timing and positioning, especially when you want to move away from a contact-oriented routine.",
+          "The practical cost is relying on how the attack looks rather than what it accomplishes. Several visible projectiles do not tell you whether the action solved the current threat. Evaluate readiness, application, and the position left after using it together."
+        ]
+      },
+      {
+        "title": "Build choices and comparisons",
+        "paragraphs": [
+          "Fire Mage offers Firestorm as another offensive action to explore. Side Ballista and Front Barracks are useful comparisons for active-oriented play. The question is which action fits the openings you create, not which module has the most impressive single screenshot.",
+          "Huntress’s cooldown drawback matters when an active action becomes central to the plan. Force Mage is a separate consideration when the problem comes from incoming projectiles rather than applying your own attack. Keep offensive experimentation and defensive needs visible as separate decisions."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Start by using the action at an opportunity you can clearly describe. Afterward, ask whether you improved the situation and whether your next route remained comfortable. Make one change to that sequence if it did not work.",
+          "Avoid assuming that ordinary enemy-clear footage establishes performance in every major encounter. Also avoid using an old projectile count as your expectation after 0.9.6. Try the current action in your own familiar setup before deciding how much of the build should depend on it."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What does Top Mortar use?",
+        "It has a projectile-firing active ability and an offensive role."
+      ],
+      [
+        "What changed after launch?",
+        "Hotfix 0.9.6 reduced its active projectile count."
+      ],
+      [
+        "How should I compare it for bosses?",
+        "Consider whether you can apply the action during the particular opening you have, then plan the movement that follows."
+      ],
+      [
+        "What should beginners pay attention to?",
+        "Judge the result of the activation and your position afterward, rather than only the number of visible projectiles."
+      ]
+    ],
+    "related": [
+      "/database/modules/fire-mage/",
+      "/database/modules/side-ballista/",
+      "/database/modules/force-mage/",
+      "/database/captains/huntress/",
+      "/guides/best-build/",
+      "/bosses/"
+    ]
+  },
+  "fire-mage": {
+    "intro": "Fire Mage is a magic-oriented offensive module associated with Firestorm. Explore it as an active offensive choice, and plan around when the action contributes to the encounter rather than choosing by visual impact alone.",
+    "sections": [
+      {
+        "title": "What Fire Mage does",
+        "paragraphs": [
+          "Fire Mage is associated with the Firestorm ability. The launch-day hotfix 0.9.6 increased Firestorm damage. This makes the action itself the useful starting point when learning the module or returning from an earlier version.",
+          "Keep the equipment’s offensive job in mind: what threat do you want the action to help remove, and when can you use it comfortably? Answering those questions gives the module a role in a build rather than treating magic as a complete strategy by itself."
+        ]
+      },
+      {
+        "title": "Making Firestorm part of a sequence",
+        "paragraphs": [
+          "Guide advice: use a familiar vehicle and create a manageable opportunity to activate the action. Watch what it contributes, then continue steering with the remaining threats in mind. An offensive action should fit into a repeatable approach and recovery sequence.",
+          "If the action looks impressive but you still lose control of the fight afterward, inspect the movement decision. You may need a different approach or another response to incoming attacks rather than a more elaborate offensive combination."
+        ]
+      },
+      {
+        "title": "When to choose Fire Mage",
+        "paragraphs": [
+          "Consider it when you want to try a magic-oriented action or compare a new offensive routine with the one you already know. The 0.9.6 damage change is a reason to revisit Firestorm if an older experience shaped your opinion.",
+          "Use the current run’s needs to decide whether that experiment makes sense now. If ordinary offense already works and the difficulty is surviving between attacks, an additional offensive choice may not address the problem. Keep the goal of the attempt clear."
+        ]
+      },
+      {
+        "title": "Strengths and practical limitations",
+        "paragraphs": [
+          "Firestorm provides an identifiable offensive action to build a learning exercise around. That is helpful when you want to understand one module at a time: use the action, observe the outcome, and adjust the next approach.",
+          "The practical limitation is assuming a fiery appearance supplies a complete interaction rule. When choosing an artifact, read which action its effect changes and what triggers it. Select for a condition your build actually meets, rather than pairing two names that merely sound related."
+        ]
+      },
+      {
+        "title": "Build considerations and related modules",
+        "paragraphs": [
+          "Top Mortar is a useful comparison for another projectile-based active offensive choice. Side Arm offers a comparison that includes both automatic attacks and an active action. Compare their contribution to the opportunities your vehicle can create.",
+          "Force Mage and Electric Mage answer different questions through projectile control and stun-capable control. Consider those roles when the setup needs more than offense. If you choose Huntress, include the cooldown drawback when thinking about how often an active plan can be repeated."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Try Firestorm before adding several other unfamiliar effects. Keep the captain and vehicle familiar, use the action deliberately, and watch what remains dangerous afterward. This gives you a clearer reason to retain or change the module.",
+          "Avoid treating a damage increase as a guarantee of a universal best choice. Avoid assuming an artifact automatically strengthens Firestorm because its theme looks similar. When an approach fails, identify whether the action, its timing, or your movement caused the difficulty before changing the whole build."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Which ability is associated with Fire Mage?",
+        "Firestorm is its named offensive ability."
+      ],
+      [
+        "What changed in 0.9.6?",
+        "The launch-day hotfix increased Firestorm damage."
+      ],
+      [
+        "How should I choose artifacts around it?",
+        "Read the artifact’s trigger and affected action, then choose an effect your actual routine can use."
+      ],
+      [
+        "What is a good first test?",
+        "Use Firestorm on a familiar platform during a manageable encounter and evaluate both its contribution and the position left afterward."
+      ]
+    ],
+    "related": [
+      "/database/modules/top-mortar/",
+      "/database/modules/side-arm/",
+      "/database/modules/force-mage/",
+      "/database/modules/electric-mage/",
+      "/database/captains/huntress/",
+      "/guides/best-build/"
+    ]
+  },
+  "huntress": {
+    "intro": "Huntress asks you to account for extra ability-cooldown time. Plan the gaps between active actions as carefully as the moments when you use them, especially when an ability is central to your offensive or defensive routine.",
+    "sections": [
+      {
+        "title": "Who is Huntress?",
+        "paragraphs": [
+          "Huntress is a captain with an ability-cooldown drawback. Hotfix 0.9.10 reduced the extra cooldown time. That change matters most when you are revisiting a setup that depends on activating equipment at particular moments.",
+          "Read her complete selection description before choosing. For the gameplay advice here, the important question is how the timing rule fits the actions you intend to repeat. A captain decision should include what happens between activations, not only the benefit of an action when it is ready."
+        ]
+      },
+      {
+        "title": "Playstyle: plan the interval",
+        "paragraphs": [
+          "Guide advice: identify the ability your routine depends on most. Before approaching a target, check its availability and consider what the castle will do until the next opportunity. Give the interval a purpose: move into a better line, reduce exposure, or rely on familiar ordinary offense.",
+          "Avoid treating an unavailable action as a reason to continue the same approach anyway. If the next attack depends on that action, changing your route can be a better adjustment than arriving at the intended position without the tool you expected to use."
+        ]
+      },
+      {
+        "title": "When to choose and what to weigh",
+        "paragraphs": [
+          "Consider Huntress when her full character rule interests you and you are comfortable planning around ability availability. A deliberate routine makes the cooldown tradeoff easier to notice than a run where several unfamiliar actions compete for attention.",
+          "If you are still learning which button activates your equipment or regularly overlook readiness, practice those habits on a familiar setup first. The practical cost to watch is reaching a useful opening while the needed action is unavailable. That cost can affect offense and recovery differently."
+        ]
+      },
+      {
+        "title": "Module considerations",
+        "paragraphs": [
+          "Side Ballista and Front Barracks are relevant to active-focused offense. When considering either with Huntress, examine how often the active action is central to your approach and what the rest of your equipment contributes between uses. An improved ability still needs a workable timing plan.",
+          "Force Mage is relevant when you depend on projectile cancellation for a difficult approach. Keep a movement alternative if that defensive action is unavailable. Electric Mage offers a control action to consider under the same planning principle. These are timing relationships, not automatic recommendations for a special pairing bonus."
+        ]
+      },
+      {
+        "title": "Build advice and beginner routine",
+        "paragraphs": [
+          "Start with one familiar module and one manageable encounter. Notice the moment you want to activate, whether the action is ready, and what you do afterward. Repeat with a slightly different approach if the timing repeatedly conflicts with your movement.",
+          "Keep the vehicle unchanged while learning this captain. A different turning response can make it harder to tell whether the issue came from ability timing or the route itself. Once the interval feels comfortable, decide whether another active choice helps the sequence or adds more work to manage."
+        ]
+      },
+      {
+        "title": "Common mistakes",
+        "paragraphs": [
+          "Do not judge Huntress solely from a reduced penalty. The practical decision still includes the whole character rule and the equipment you want to use. Also avoid assuming that the most active-heavy loadout must be the best fit simply because cooldowns are the topic under discussion.",
+          "When an attempt fails, separate three events: arriving too early for an action, activating at an unhelpful moment, and ending in a poor position. The first suggests a timing adjustment; the others can require a different approach even when cooldowns are comfortable."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What drawback matters for Huntress?",
+        "Her rule includes extra ability-cooldown time, reduced in hotfix 0.9.10."
+      ],
+      [
+        "Which modules should I think about carefully?",
+        "Pay attention to any action your routine depends on, including Side Ballista’s active offense or Force Mage’s projectile response."
+      ],
+      [
+        "How should a beginner learn her?",
+        "Keep the vehicle and main equipment familiar, then practice checking readiness before each committed approach."
+      ],
+      [
+        "Does a stronger ability remove the tradeoff?",
+        "No. The action still has to be available when your plan needs it. Think about the interval as well as the activation."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-ballista/",
+      "/database/modules/front-barracks/",
+      "/database/modules/force-mage/",
+      "/database/modules/electric-mage/",
+      "/guides/best-build/",
+      "/guides/beginner-guide/"
+    ]
+  },
+  "tankbert": {
+    "intro": "Tankbert has a Nitro-regeneration penalty. Learn how that recovery rule affects your movement rhythm before building a plan around frequent boosts into and out of danger.",
+    "sections": [
+      {
+        "title": "Who is Tankbert?",
+        "paragraphs": [
+          "Tankbert is a captain with a drawback affecting Nitro regeneration. Hotfix 0.9.10 made that penalty less severe. The movement resource deserves attention because your route can depend on both reaching an opportunity and leaving it.",
+          "The most useful way to understand the tradeoff is to connect it to repeated decisions. One comfortable boost does not describe the entire routine: notice how soon you want to boost again and what alternatives you have during recovery."
+        ]
+      },
+      {
+        "title": "Playstyle: leave room between commitments",
+        "paragraphs": [
+          "Guide advice: plan the next movement before spending Nitro. If you use boost to reach a fight, identify how you will continue when the target survives. A broad route with room to turn may be easier to manage than an approach that assumes immediate repeated boosts.",
+          "Treat recovery as part of driving rather than a pause in the game. Watch nearby threats and choose a line that remains usable without another immediate burst of movement. This can make the captain’s rule easier to learn without turning every approach into an emergency exit."
+        ]
+      },
+      {
+        "title": "When to consider Tankbert",
+        "paragraphs": [
+          "Consider him when you want to explore his complete character rule and can consciously space your boosts. Begin with a familiar vehicle so the recovery penalty is not confused with an unfamiliar turning response or a different starting movement speed.",
+          "If your current habit is to boost at every visible target, the first useful change is to choose fewer committed approaches. The practical weakness to watch is exhausting the movement option that your escape plan depends on. The 0.9.10 reduction makes the tradeoff worth revisiting, but does not remove the need to manage it."
+        ]
+      },
+      {
+        "title": "Module and vehicle considerations",
+        "paragraphs": [
+          "Ram makes the route through an attack especially important. If you are considering contact-oriented play with Tankbert, examine the complete pass and its exit before treating the combination as comfortable. The movement commitment is the relationship to understand.",
+          "Force Mage offers another response when incoming projectiles are the specific reason you repeatedly need to leave an approach. It does not replace Nitro or supply a movement benefit; it addresses a different problem. Tower and Spider are useful vehicle comparisons when you want to learn starting handling separately from resource recovery."
+        ]
+      },
+      {
+        "title": "Beginner routine",
+        "paragraphs": [
+          "First drive the familiar platform through a broad approach without trying to reach every target quickly. Then use one boost deliberately and watch the recovery before deciding on another committed action. Add your usual offense once the sequence feels predictable.",
+          "During a run, notice why you spent Nitro. Was it to reach food, apply an attack, or escape a dangerous position? If several uses happen close together, decide which one was optional. Improving that decision can be more useful than replacing equipment that already performs its job."
+        ]
+      },
+      {
+        "title": "Common mistakes and build adjustments",
+        "paragraphs": [
+          "Avoid blaming an attack for a failed retreat when the route depended on movement resources you had already spent. Also avoid judging the captain from a single open-space maneuver; the recovery rule matters across a sequence of decisions.",
+          "If movement pressure repeatedly causes trouble, simplify the offensive approach and keep more space around the castle. If recovery feels manageable, continue exploring the captain’s full rule with one equipment change at a time. Keep the next adjustment tied to the point in the sequence that actually failed."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changes Nitro for Tankbert?",
+        "His character rule includes a Nitro-regeneration penalty."
+      ],
+      [
+        "What changed in 0.9.10?",
+        "The penalty became less severe."
+      ],
+      [
+        "Is Ram automatically a good pairing?",
+        "No automatic pairing is implied. Contact-oriented play needs a route in and out, so examine how Nitro recovery affects the whole pass."
+      ],
+      [
+        "What should beginners practice?",
+        "Use boost deliberately, observe recovery, and choose a continuation that does not depend on boosting again immediately."
+      ]
+    ],
+    "related": [
+      "/database/modules/ram/",
+      "/database/modules/force-mage/",
+      "/database/vehicles/tower/",
+      "/database/vehicles/spider/",
+      "/database/captains/duelist/",
+      "/guides/controls/",
+      "/guides/best-build/"
+    ]
+  },
+  "duelist": {
+    "intro": "Duelist has an incoming-damage drawback while boosting. The key practical decision is when and where to boost: reaching an opportunity quickly is less valuable if the route exposes the castle to avoidable hits.",
+    "sections": [
+      {
+        "title": "Who is Duelist?",
+        "paragraphs": [
+          "Duelist is a captain whose boosting-related incoming-damage penalty was reduced in hotfix 0.9.10. The rule connects a movement state to the cost of being hit, making the path through danger an important part of the selection.",
+          "Think about the moments when you usually boost. An escape across open space, a rush toward a target, and a pass through incoming attacks create different situations. The captain’s full selection description should be considered alongside those habits."
+        ]
+      },
+      {
+        "title": "Playstyle: choose the line before the boost",
+        "paragraphs": [
+          "Guide advice: decide where the boost will end before using it. Look beyond the target toward the position that follows. If the line takes you through overlapping threats, consider a different approach rather than using speed as the only answer.",
+          "When you need to leave danger, prioritize a direction that reduces exposure instead of automatically returning through the route you used to enter. The practical lesson is to separate moving quickly from moving safely; the two can coincide, but the path determines whether they do."
+        ]
+      },
+      {
+        "title": "When to choose Duelist",
+        "paragraphs": [
+          "Consider Duelist when the full character rule interests you and you are comfortable reading a route before committing to it. A familiar vehicle makes it easier to focus on exposure during boosting rather than learning new steering at the same time.",
+          "If boosting into crowded situations is currently your default response, make that habit the learning goal. The tradeoff to weigh is taking hits while using a movement action you might normally treat as an escape tool. Revisit that sequence after the 0.9.10 reduction without assuming the drawback has disappeared."
+        ]
+      },
+      {
+        "title": "Build considerations",
+        "paragraphs": [
+          "Ram is relevant because contact-oriented offense can encourage committed approaches. If boost is part of that routine, plan the aftermath as carefully as the initial contact. This is a risk relationship to evaluate, not a recommendation to pair the two automatically.",
+          "Force Mage can be considered when incoming projectiles complicate your route, while Electric Mage offers a different control action. Learn what each action contributes before depending on it during a boost. Neither changes the need to watch the castle’s position and the threats remaining after activation."
+        ]
+      },
+      {
+        "title": "Beginner tips",
+        "paragraphs": [
+          "Practice deliberate boosts with a clear continuation on a familiar platform. Add your main offensive action once you can anticipate where the vehicle will finish. Notice whether damage arrives during the approach, the boost itself, or the position after it ends.",
+          "That observation gives the next adjustment a purpose. You might change the angle of entry, wait for a more comfortable opportunity, or reduce the number of threats involved. Keep the change small enough that you can understand whether it helped."
+        ]
+      },
+      {
+        "title": "Common mistakes",
+        "paragraphs": [
+          "Avoid treating a reduced penalty as permission to ignore incoming attacks. Avoid equating an impressive hit with a favorable overall pass. A contact attack that lands can still leave the castle exposed during a boost or stranded among nearby enemies.",
+          "Do not change vehicle, captain, and attack style together when trying to diagnose the problem. First learn the boost exposure rule on a familiar setup. Then compare whether a new offensive choice improves the sequence or merely encourages the same risky habit."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What is Duelist’s movement tradeoff?",
+        "The captain has an incoming-damage penalty while boosting."
+      ],
+      [
+        "What changed in 0.9.10?",
+        "The boost-related damage penalty was reduced."
+      ],
+      [
+        "Should I avoid boost completely?",
+        "The practical advice is to choose the route deliberately and watch exposure. Consider what the movement accomplishes and where it leaves you."
+      ],
+      [
+        "Why is Ram linked here?",
+        "Ram’s contact-oriented approach makes the commitment of the vehicle relevant. It is a comparison of movement risks, not a special synergy bonus."
+      ]
+    ],
+    "related": [
+      "/database/modules/ram/",
+      "/database/modules/force-mage/",
+      "/database/modules/electric-mage/",
+      "/database/captains/tankbert/",
+      "/guides/controls/",
+      "/guides/beginner-guide/",
+      "/bosses/"
+    ]
+  },
+  "patchy-the-pirate": {
+    "intro": "PatchyThePirate has an enemy-cannon damage drawback. Consider how comfortably you avoid cannon fire and how much exposure your offensive approach creates before choosing this captain for a run.",
+    "sections": [
+      {
+        "title": "Who is PatchyThePirate?",
+        "paragraphs": [
+          "PatchyThePirate is a captain with a drawback involving damage from enemy cannons. Hotfix 0.9.10 reduced that drawback. This makes the type of incoming threat relevant when you consider the captain’s complete rule.",
+          "The selection is not simply a question of whether you like ranged offense. Your own weapon preference and the enemy’s cannon damage are different parts of the fight. Keep the incoming threat in mind when deciding how to approach."
+        ]
+      },
+      {
+        "title": "Playstyle: manage cannon exposure",
+        "paragraphs": [
+          "Guide advice: watch the direction of incoming fire before committing to a target. Look for a route that lets you continue moving after the attack, rather than concentrating only on the first opportunity to deal damage.",
+          "If more than one enemy is involved, reduce the number of directions you need to watch where possible. A position that feels manageable against one opponent can become difficult when another attack overlaps. The captain’s drawback makes that incoming-damage decision worth deliberate attention."
+        ]
+      },
+      {
+        "title": "When to consider this captain",
+        "paragraphs": [
+          "Consider PatchyThePirate when his full character rule appeals to you and cannon avoidance already feels comfortable on your chosen platform. Start with familiar equipment so you can focus on whether the drawback changes your usual approach.",
+          "If cannon hits repeatedly end your runs, use the next attempt to improve route selection before adding several new build decisions. The practical cost is exposure to a particular threat, so judge the choice in encounters where that threat actually matters rather than only in easy open travel."
+        ]
+      },
+      {
+        "title": "Module considerations",
+        "paragraphs": [
+          "Force Mage’s projectile-cancellation role is relevant to read when considering incoming fire. Observe the action in the encounter you are facing and keep a movement alternative; do not treat a defensive module as a reason to remain exposed indefinitely.",
+          "Side Arm and Side Ballista are offensive comparisons for the action pattern you want to maintain while steering. An active-heavy plan needs enough attention left for incoming attacks. Choose offense you can apply without losing sight of the movement decision this captain asks you to make."
+        ]
+      },
+      {
+        "title": "Beginner routine and build advice",
+        "paragraphs": [
+          "Keep the vehicle and main attack familiar. During an encounter, notice which direction a cannon threat comes from, choose a continuation, and use the offensive opening without forgetting the next route. If the line becomes crowded, reconsider rather than forcing the original approach.",
+          "After a damaging exchange, ask whether you were watching the target, your own action, or the incoming attack. That distinction can reveal an attention problem rather than an equipment problem. Simplifying the offensive routine is a reasonable learning step."
+        ]
+      },
+      {
+        "title": "Common mistakes",
+        "paragraphs": [
+          "Avoid assuming that a pirate-themed captain automatically belongs in a cannon build. The drawback discussed here concerns enemy cannon damage; the complete character rule should guide the rest of the selection.",
+          "Also avoid judging the captain solely from the fact that a penalty became smaller in 0.9.10. The practical question is whether the current cost fits your own approach. Keep the strengths of your existing routine and change the point where cannon exposure repeatedly causes trouble."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What drawback should I watch?",
+        "PatchyThePirate has a drawback involving enemy cannon damage."
+      ],
+      [
+        "What changed in 0.9.10?",
+        "That enemy-cannon damage drawback was reduced."
+      ],
+      [
+        "Does the name mean I should choose cannon modules?",
+        "Choose equipment from the full character rule and your intended actions, rather than the name or theme alone."
+      ],
+      [
+        "How can I learn the captain?",
+        "Use familiar offense and focus on incoming directions, the line of approach, and the route after each attack."
+      ]
+    ],
+    "related": [
+      "/database/modules/force-mage/",
+      "/database/modules/side-arm/",
+      "/database/modules/side-ballista/",
+      "/guides/best-build/",
+      "/guides/beginner-guide/",
+      "/bosses/"
+    ]
+  },
+  "kapitalstus-maximus": {
+    "intro": "Kapitalstus Maximus has a gold-related tradeoff. Read that rule with the purpose of your run in mind, and keep resource decisions separate from the immediate need to survive and apply your equipment.",
+    "sections": [
+      {
+        "title": "Who is Kapitalstus Maximus?",
+        "paragraphs": [
+          "Kapitalstus Maximus is a captain with a gold penalty, reduced in hotfix 0.9.10. A gold-related rule belongs in the decision about what you want an attempt to accomplish, alongside the combat and movement demands of the selected setup.",
+          "Begin with the full description shown when choosing the captain. Identify which resource decision the rule affects before deciding how heavily it should weigh against the rest of the character’s appeal."
+        ]
+      },
+      {
+        "title": "Playstyle: define the goal first",
+        "paragraphs": [
+          "Guide advice: choose whether this attempt is about learning the captain, completing a familiar challenge, or working toward another option. A resource-related tradeoff is easier to understand when you know which outcome you are trying to improve.",
+          "Keep the immediate run playable while pursuing that goal. A long-term plan does not help if unfamiliar movement and offense repeatedly prevent you from reaching useful opportunities. Use a comfortable combat routine while learning how the character rule affects your decisions."
+        ]
+      },
+      {
+        "title": "When to choose and what to weigh",
+        "paragraphs": [
+          "Consider Kapitalstus Maximus when his complete rule interests you and you can identify the gold-related cost in the context of your goal. The 0.9.10 reduction is a reason to reconsider a previous preference, rather than assume the old experience remains identical.",
+          "The practical tradeoff is letting a resource objective dominate every choice. If the current setup struggles with a specific encounter, address the survival or offensive problem rather than treating every selection as part of a distant ideal build."
+        ]
+      },
+      {
+        "title": "Equipment and progression considerations",
+        "paragraphs": [
+          "Start with equipment whose role you understand. Side Arm offers automatic and active offense to compare, while Front Barracks is relevant if you prefer a deliberate active action. These are familiar combat routines to consider, not gold-related item bonuses.",
+          "Use the progression guide to distinguish unlocked options from the current run’s equipment state. Module and artifact collection counts have their own reroll rules. Keep those systems separate from a captain’s gold tradeoff when deciding why an unlock is useful."
+        ]
+      },
+      {
+        "title": "Beginner routine",
+        "paragraphs": [
+          "Read the character selection description, state the aim of the attempt, and keep the vehicle familiar. During the run, notice the moments when the gold rule affects a decision rather than judging the whole experience from one result.",
+          "Afterward, separate the resource outcome from the combat lesson. A difficult attack sequence may need a better route or a different module role regardless of whether the gold-related choice suited your original goal. Make the next change around the part you can explain."
+        ]
+      },
+      {
+        "title": "Common mistakes",
+        "paragraphs": [
+          "Do not infer an entire economy strategy from the captain’s name. Do not treat the reduced penalty as a universal recommendation for unlocking everything faster. Use the rule displayed in the game to decide which resource decisions it actually changes.",
+          "Avoid changing several other major choices while learning this one. If you also replace your vehicle and main attack, a weaker run can become difficult to interpret. Keep a dependable foundation, then decide whether the character’s tradeoff fits the kind of attempt you enjoy."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What tradeoff does this captain have?",
+        "Kapitalstus Maximus has a gold-related penalty."
+      ],
+      [
+        "What changed in 0.9.10?",
+        "The gold penalty was reduced."
+      ],
+      [
+        "Should I choose only for a resource goal?",
+        "Consider the full character rule and keep the combat routine usable. The current run still needs to survive and reach useful opportunities."
+      ],
+      [
+        "How should beginners approach the choice?",
+        "Use a familiar vehicle and offense, choose a clear goal, and watch which decisions the gold rule changes."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-arm/",
+      "/database/modules/front-barracks/",
+      "/guides/progression/",
+      "/guides/best-build/",
+      "/database/artifacts/"
+    ]
+  },
+  "electric-arrow": {
+    "intro": "Electric Arrow is an artifact whose trigger reliability improved in 0.9.10. Build around the activation condition shown in the game, and make sure the actions you use regularly can benefit from the effect.",
+    "sections": [
+      {
+        "title": "What is Electric Arrow?",
+        "paragraphs": [
+          "Electric Arrow is an artifact affected by a trigger-reliability fix in hotfix 0.9.10. The practical topic is activation: when you choose an artifact, the condition that makes it contribute belongs in the same decision as the benefit you want.",
+          "Read the in-game effect before selecting a combination. Start with the action your setup performs regularly, then decide whether this artifact supports that action during the encounters you want to improve."
+        ]
+      },
+      {
+        "title": "How to fit it into a build",
+        "paragraphs": [
+          "Guide advice: describe the intended sequence in your own words. Identify the action, the activation condition, and the contribution you expect to notice. Keep those parts specific enough that you can recognize when the artifact helps.",
+          "Use familiar equipment for the first attempt. If you change several attacks and a captain at once, a stronger or weaker outcome may tell you little about the artifact’s contribution. A simple setup makes the activation question easier to follow."
+        ]
+      },
+      {
+        "title": "When to choose it",
+        "paragraphs": [
+          "Consider Electric Arrow when its displayed condition fits the actions you already use or the build experiment you deliberately want to try. It is worth revisiting an older setup after the 0.9.10 reliability change if activation was previously the point of frustration.",
+          "The practical strength of a well-matched artifact choice is relevance to your routine. The tradeoff is selecting for an appealing name while rarely performing the action that matters. Check the condition before making it the centerpiece of an attempt."
+        ]
+      },
+      {
+        "title": "Module comparisons and synergy advice",
+        "paragraphs": [
+          "Side Ballista and Side Arm provide a useful distinction between automatic attacks and active abilities. When reading an artifact description, identify which part of your chosen equipment it concerns. A module having both components does not mean every effect necessarily supports both.",
+          "The links here help you compare action patterns, not prescribe an Electric Arrow pairing. Choose the actual combination from the artifact’s condition and the module you intend to use. This keeps the build centered on an interaction you can apply."
+        ]
+      },
+      {
+        "title": "Beginner tips and mistakes",
+        "paragraphs": [
+          "Observe a manageable encounter before adding more unfamiliar effects. Notice whether you can follow the activation condition while steering. If attention becomes overloaded, simplify the offensive sequence before adding another timing-dependent choice.",
+          "Avoid treating every good result after equipping an artifact as the artifact’s work. Positioning and the rest of the build still matter. Also keep the collection goal separate: each six artifact unlocks adds an Artifact Reroll under the 0.9.10 rule, while choosing this particular artifact concerns its fit with your actions."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed for Electric Arrow?",
+        "Hotfix 0.9.10 improved its trigger reliability."
+      ],
+      [
+        "How do I decide whether it fits?",
+        "Read the activation condition in the game and compare it with the actions your build performs regularly."
+      ],
+      [
+        "Should I pair it by theme alone?",
+        "Use the actual effect and trigger rather than assuming a name establishes which equipment benefits."
+      ],
+      [
+        "How should I try it for the first time?",
+        "Keep the main equipment familiar and observe the intended activation sequence during a manageable encounter."
+      ]
+    ],
+    "related": [
+      "/database/modules/side-ballista/",
+      "/database/modules/side-arm/",
+      "/database/artifacts/phoenix-feather/",
+      "/guides/best-build/",
+      "/guides/progression/"
+    ]
+  },
+  "phoenix-feather": {
+    "intro": "Phoenix Feather is an artifact with an interaction involving Valkyrie, addressed in hotfix 0.9.9. Choose around the condition shown in the game and the role the effect plays in your intended setup.",
+    "sections": [
+      {
+        "title": "What is Phoenix Feather?",
+        "paragraphs": [
+          "Phoenix Feather is an artifact named in the 0.9.9 fix for its interaction with Valkyrie. That connection is the relevant patch context when returning to a setup involving the two.",
+          "An artifact decision starts with the current effect and its activation condition. Read those alongside the character or equipment involved, then decide what part of your combat plan the interaction supports."
+        ]
+      },
+      {
+        "title": "Build role and activation planning",
+        "paragraphs": [
+          "Guide advice: keep the artifact’s condition connected to an actual situation you expect during the run. A useful plan should explain when the effect matters and what you intend to do afterward. This is more actionable than selecting a combination because its theme sounds powerful.",
+          "If you are revisiting the Valkyrie interaction, begin with familiar movement and equipment. Keeping the rest of the setup stable makes it easier to learn the sequence without several new actions competing for your attention."
+        ]
+      },
+      {
+        "title": "When to choose it",
+        "paragraphs": [
+          "Consider Phoenix Feather when the displayed effect fits your character choice and the goal of the attempt. For a returning player, the 0.9.9 interaction fix is a reason to read the current descriptions again before repeating an older routine.",
+          "For a first-time experiment, decide whether learning that interaction is the goal or whether you need a simpler choice for immediate comfort. Both are reasonable aims; the important part is knowing which one is guiding the selection."
+        ]
+      },
+      {
+        "title": "Strengths to seek and tradeoffs to avoid",
+        "paragraphs": [
+          "A good artifact choice supports a condition your setup can use without losing control of the vehicle. Look for that fit in the actual description. The practical cost to avoid is making your entire survival plan depend on an effect you have not learned to recognize during play.",
+          "Keep an ordinary movement and recovery plan while exploring the artifact. Watch the remaining threats after its effect is relevant rather than assuming the encounter has become harmless. The rest of the equipment still has a job to do."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Try the artifact with a familiar offensive action and notice the condition it is meant to support. If an attempt goes poorly, distinguish the interaction from an unsafe approach or a missed ability opportunity. Change the part that caused difficulty.",
+          "Avoid deriving a complete effect from the word feather or from the item’s theme. Also separate unlocking artifacts from choosing one in a build. Artifact collection contributes to rerolls in groups of six, but a particular choice should still serve the actions and character rule you intend to use."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Which interaction appears in its patch history?",
+        "Hotfix 0.9.9 fixed an interaction involving Phoenix Feather and Valkyrie."
+      ],
+      [
+        "How should I plan around it?",
+        "Read the current effect and activation condition alongside the character or equipment involved, then connect it to a situation you expect in the run."
+      ],
+      [
+        "Is its name enough to choose a build?",
+        "No. Choose from the actual effect and the way it fits your routine."
+      ],
+      [
+        "What is a useful beginner approach?",
+        "Keep the vehicle and offense familiar while learning the artifact’s condition, and maintain a normal route out of danger."
+      ]
+    ],
+    "related": [
+      "/database/artifacts/electric-arrow/",
+      "/database/captains/",
+      "/guides/best-build/",
+      "/guides/progression/",
+      "/guides/beginner-guide/"
+    ]
+  },
+  "tower": {
+    "intro": "Tower is a player vehicle whose earlier-level movement became faster in 0.9.9. Learn its starting response and your route through an encounter before judging how a complete equipment setup feels on it.",
+    "sections": [
+      {
+        "title": "Tower overview",
+        "paragraphs": [
+          "Tower is a selectable player vehicle. Hotfix 0.9.9 revised its driving behavior with faster movement at earlier or base levels. That gives returning players a reason to revisit the starting experience instead of relying entirely on an older impression.",
+          "The vehicle is the platform for your equipment. Its practical role is to carry an attack into position, keep the fortress moving through the surroundings, and make the next route usable after the action."
+        ]
+      },
+      {
+        "title": "Movement and playstyle",
+        "paragraphs": [
+          "Guide advice: learn how Tower responds before adding an unfamiliar captain rule. Drive a broad turn, change direction, and try a deliberate approach with room to continue. Pay attention to the path you intended and the path the vehicle actually takes.",
+          "Once ordinary movement feels comfortable, combine it with an equipment action you already know. This connects handling to combat without forcing you to learn both systems at once. Notice the final position after the attack as carefully as the position that made the attack possible."
+        ]
+      },
+      {
+        "title": "When to choose Tower",
+        "paragraphs": [
+          "Consider Tower when you want to explore its platform behavior or revisit an earlier-level experience after 0.9.9. Make learning the vehicle the purpose of the attempt and keep the main offensive routine familiar.",
+          "A comfortable starting feel is a useful reason to continue learning a platform, but it should not be confused with the whole upgrade path. Reassess your movement as the run develops, especially when the same approach starts to finish in a different position."
+        ]
+      },
+      {
+        "title": "Build considerations",
+        "paragraphs": [
+          "Ram makes the route through an attack particularly important, so it is a useful module to read before choosing a contact-oriented plan. Try the full approach and recovery rather than judging only whether the first contact works.",
+          "Side Arm provides an offensive routine with both automatic and active components to explore while steering. Force Mage is a different consideration when incoming projectiles disrupt the path you want to use. These choices illustrate roles to learn on the platform, not vehicle-exclusive bonuses."
+        ]
+      },
+      {
+        "title": "Strengths and practical tradeoffs",
+        "paragraphs": [
+          "The 0.9.9 earlier-level movement improvement is the relevant starting change. In practical play, look for a platform response that lets you repeat your intended route while leaving attention for equipment use. That fit with your habits is more useful than choosing only from a vehicle name.",
+          "The main learning cost is attributing every problem to equipment before understanding the platform. An attack that feels awkward may be arriving at a poor angle or leaving an uncomfortable exit. Try adjusting the route before replacing several parts of the build."
+        ]
+      },
+      {
+        "title": "Beginner tips and common mistakes",
+        "paragraphs": [
+          "Use one familiar captain while learning Tower. First practice movement alone, then add a known ability, then try the combination around a manageable threat. Increase the complexity only when you can explain where the vehicle finishes.",
+          "Avoid comparing starting movement on one platform with an upgraded example of another. Spider is useful for comparison, but its early driving and speed upgrades changed differently in 0.9.9. Keep the stage of the run in mind when deciding which platform feels better for your next attempt."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed for Tower?",
+        "Hotfix 0.9.9 made its earlier or base-level movement faster."
+      ],
+      [
+        "What should I learn first?",
+        "Practice the intended route and continuation before combining unfamiliar equipment with the platform."
+      ],
+      [
+        "How should I compare Tower and Spider?",
+        "Compare similar stages of a run and keep the captain and input setup familiar so handling differences are easier to understand."
+      ],
+      [
+        "Does choosing Tower decide my modules?",
+        "Use the modules that fit your intended actions and approach. Learn how the platform delivers those actions before changing the whole build."
+      ]
+    ],
+    "related": [
+      "/database/vehicles/spider/",
+      "/database/modules/ram/",
+      "/database/modules/side-arm/",
+      "/database/modules/force-mage/",
+      "/guides/controls/",
+      "/guides/best-build/"
+    ]
+  },
+  "spider": {
+    "intro": "Spider is a player vehicle with faster earlier-level driving after 0.9.9, alongside weaker speed upgrades. Treat its starting movement and its later development as separate parts of learning the platform.",
+    "sections": [
+      {
+        "title": "Spider overview",
+        "paragraphs": [
+          "Spider received faster earlier-level driving in hotfix 0.9.9, while its speed upgrades were weakened. Those changes point in different directions across a run: a more responsive starting experience does not automatically describe how every later upgrade feels.",
+          "Start by learning the platform you are driving now. Then watch how the same route feels as upgrades change the experience. This gives you a practical basis for deciding which equipment routine is comfortable on the vehicle."
+        ]
+      },
+      {
+        "title": "Movement and chassis role",
+        "paragraphs": [
+          "Guide advice: practice a broad route, a direction change, and an approach with a clear continuation. Notice how much attention it takes to reach the intended line before adding an unfamiliar active ability.",
+          "The vehicle’s job is not finished when an attack becomes possible. It must also carry the castle through the aftermath. If you reach targets comfortably but struggle to leave, inspect the continuation rather than judging the starting response alone."
+        ]
+      },
+      {
+        "title": "When to choose Spider",
+        "paragraphs": [
+          "Consider Spider when you want to learn a different platform or return to its revised early driving. Keep the captain and main offensive action familiar during the first attempt, so the handling becomes the main new decision.",
+          "If your interest comes from an old speed-focused demonstration, compare the stage of the run carefully. The 0.9.9 upgrade adjustment means the earlier and later experiences should be examined separately instead of assuming the old progression feels unchanged."
+        ]
+      },
+      {
+        "title": "Build considerations",
+        "paragraphs": [
+          "Ram is a useful contact-oriented comparison because the vehicle itself commits to the approach. Check whether you can make the full pass and exit comfortably before deciding the module is a good fit for your present handling skills.",
+          "Side Ballista offers an active-offense routine to try once steering feels settled. A captain such as Tankbert adds a Nitro-recovery consideration, while Duelist changes the risk of being hit during boost. Learn the platform first, then decide whether adding one of those movement-related rules suits the attempt."
+        ]
+      },
+      {
+        "title": "Strengths and tradeoffs to assess",
+        "paragraphs": [
+          "The earlier-level driving improvement is a reason to revisit the starting feel. For practical selection, look for a movement response that supports the kind of approach you enjoy and leaves enough attention for the equipment you want to use.",
+          "The tradeoff to watch is building expectations entirely around later speed upgrades. Keep the present encounter in view when making selections. A future handling goal is only useful if the current route and combat routine remain manageable along the way."
+        ]
+      },
+      {
+        "title": "Beginner routine and common mistakes",
+        "paragraphs": [
+          "Try movement on its own, then add a familiar action during a manageable opportunity. Observe where the fortress finishes after that action. If the line becomes uncomfortable, make a small approach adjustment before changing the entire loadout.",
+          "Avoid comparing Spider after several upgrades with Tower at the beginning of a run. Avoid changing input style and captain while also learning the platform. Keeping those conditions familiar helps you decide whether the movement response itself suits your playstyle."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed for Spider in 0.9.9?",
+        "Earlier-level driving became faster, while speed upgrades were weakened."
+      ],
+      [
+        "Why separate early and late handling?",
+        "The starting improvement and upgrade reduction affect different parts of the run, so one impression does not describe both."
+      ],
+      [
+        "What should a beginner keep familiar?",
+        "Keep the input setup, captain, and main attack familiar while learning the vehicle’s route and continuation."
+      ],
+      [
+        "What module illustrates its movement decisions?",
+        "Ram is a useful example because contact-oriented offense depends strongly on the approach and exit of the entire castle."
+      ]
+    ],
+    "related": [
+      "/database/vehicles/tower/",
+      "/database/modules/ram/",
+      "/database/modules/side-ballista/",
+      "/database/captains/tankbert/",
+      "/database/captains/duelist/",
+      "/guides/controls/",
+      "/guides/progression/"
+    ]
+  },
+  "grassland": {
+    "intro": "Grassland is a region with multiple difficulty variants, including Meadows at Difficulty 2. Keep the difficulty label with your preparation and compare encounters in the context of the run you are actually attempting.",
+    "sections": [
+      {
+        "title": "Grassland overview",
+        "paragraphs": [
+          "The Grassland region appears with difficulties 1, 2, and 3 in release-week updates. Grassland Difficulty 2 is called Meadows and was made easier in 0.9.9. Treat Meadows as a difficulty label within Grassland rather than a separate environment in your planning.",
+          "A region name gives you a starting context, but the difficulty and whether you continue into overtime describe more of the challenge. Keep those distinctions when choosing a guide or revisiting a previous run."
+        ]
+      },
+      {
+        "title": "Reading the environment",
+        "paragraphs": [
+          "Guide advice: use the current surroundings to choose a route. Wanderburg’s map is procedurally generated, so a useful habit is to identify an approachable target, nearby threats, and the direction you can take afterward. A familiar-looking field does not require the same route as another attempt.",
+          "When several opportunities compete for attention, choose the one whose continuation you can read comfortably. Growth and combat happen while the fortress moves; an appealing target is less useful if reaching it leaves you surrounded."
+        ]
+      },
+      {
+        "title": "Encounters and difficulty context",
+        "paragraphs": [
+          "Taurus Drillus appears in the Grassland 2 adjustments in 0.9.9. Keep that encounter context in mind when comparing experiences from different difficulties. A change to Meadows should not be used as a description of every Grassland challenge.",
+          "For a major enemy fortress, prepare a usable action and a route away together. Watch what remains dangerous after the first pass. If the approach fails, decide whether it was the action, its availability, or the position that caused the problem."
+        ]
+      },
+      {
+        "title": "Build preparation",
+        "paragraphs": [
+          "Begin with offense you can apply on a familiar vehicle. Add a response to the actual threat that interrupts it rather than choosing equipment solely because a regional guide recommends a famous name.",
+          "Force Mage is a module to consider when incoming projectiles repeatedly complicate your route. Ram is relevant if you want contact-oriented play, but it increases the importance of planning a full pass. These are situational roles to assess against the encounter, not a fixed Grassland loadout."
+        ]
+      },
+      {
+        "title": "Progression and learning goals",
+        "paragraphs": [
+          "Choose whether this attempt is a familiar clear, practice at a particular difficulty, or an experiment with new equipment. A focused goal makes it easier to interpret the result. Learning a vehicle and increasing the challenge at the same time can make the next adjustment less obvious.",
+          "Use the progression guide for unlocks and rerolls between attempts. Keep that collection goal separate from the immediate decision to approach another threat. The current castle still needs a routine that survives the encounter in front of it."
+        ]
+      },
+      {
+        "title": "Tips and common mistakes",
+        "paragraphs": [
+          "Name the difficulty when comparing advice. Observe the route after an attack, not only the target before it. If an old approach feels different, consider the update and your equipment state before replacing the whole build.",
+          "Avoid treating a more comfortable Meadows experience as proof that every other difficulty will feel the same. Also avoid memorizing a screenshot as a fixed map. Build your habit around reading targets and exits, so the method remains useful when the surroundings change."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Is Meadows a separate biome?",
+        "Meadows is the label for Grassland Difficulty 2."
+      ],
+      [
+        "What changed in 0.9.9?",
+        "Meadows became easier, and the update included a Taurus Drillus adjustment in Grassland 2."
+      ],
+      [
+        "Can I copy a fixed route?",
+        "Read the current map instead. The map is procedurally generated, so target and exit selection are more useful habits than memorized coordinates."
+      ],
+      [
+        "What equipment should I bring?",
+        "Start from familiar offense and add the role your current difficulty needs. Projectile control and contact-oriented offense solve different problems."
+      ]
+    ],
+    "related": [
+      "/database/biomes/dark-forest/",
+      "/database/biomes/desert/",
+      "/database/modules/force-mage/",
+      "/database/modules/ram/",
+      "/guides/beginner-guide/",
+      "/guides/progression/",
+      "/bosses/"
+    ]
+  },
+  "dark-forest": {
+    "intro": "Dark Forest’s second and third difficulties were changed to fewer, stronger enemies in 0.9.6. Prepare by looking at the danger posed by each opponent, not simply the number of enemies visible at once.",
+    "sections": [
+      {
+        "title": "Dark Forest overview",
+        "paragraphs": [
+          "Hotfix 0.9.6 changed Dark Forest difficulties 2 and 3 to use fewer, stronger enemies. That is an important distinction when comparing crowded combat with the pressure of an individual opponent. A less busy scene can still ask more of your approach.",
+          "Keep the difficulty label in the comparison. The region name alone does not tell you that an experience at another difficulty will demand the same routine from your equipment."
+        ]
+      },
+      {
+        "title": "How the composition changes your decisions",
+        "paragraphs": [
+          "Guide advice: give unfamiliar opponents enough attention to understand the next safe action. When fewer enemies occupy the scene, avoid assuming you can commit more aggressively without looking at what each one is doing.",
+          "Watch the result of the first approach. If an opponent remains dangerous, inspect whether the attack contributed during the intended opening and whether your route leaves another option. This separates an offensive problem from a positioning problem."
+        ]
+      },
+      {
+        "title": "Preparing a build",
+        "paragraphs": [
+          "Use an offensive action you can apply consistently and consider what the setup does between useful activations. Stronger individual opposition makes it especially helpful to know how you will continue if the first action does not settle the exchange.",
+          "Side Ballista and Front Barracks are active-offense choices to compare when thinking about deliberate opportunities. Force Mage is a separate role to examine if projectiles disrupt those opportunities. Choose for the threat and your own action pattern instead of assuming the region requires one named module."
+        ]
+      },
+      {
+        "title": "Control and commitment",
+        "paragraphs": [
+          "Electric Mage offers a stun-capable action to consider when exploring control. Watch how the intended target responds, then use the result to guide your next movement. Keep another route available rather than making every approach depend on the same response.",
+          "Contact-oriented play with Ram asks how the castle will leave after reaching an opponent. Judge the whole pass, including nearby threats and the continuation. A successful first hit does not remove the need to read what happens next."
+        ]
+      },
+      {
+        "title": "Progression and practice",
+        "paragraphs": [
+          "Choose a single learning goal when moving into an unfamiliar Dark Forest difficulty. You might keep the build familiar and learn the opposition, or stay with a familiar challenge while learning a new module. Separating those changes makes the next decision easier.",
+          "After an attempt, identify a specific event you want to improve: an unavailable action, an overcommitted pass, or a route that exposed you to another threat. Use that event to choose the next adjustment instead of discarding the entire setup after one hard encounter."
+        ]
+      },
+      {
+        "title": "Common mistakes",
+        "paragraphs": [
+          "Do not use crowd size alone as a measure of safety. The documented composition change points toward paying more attention to the enemies that remain. Look at their effect on your route and ability use.",
+          "Avoid transferring advice from another region without considering the difficulty and purpose of the attempt. Also avoid assuming the forest theme requires a particular damage type. Prepare from the actions and threats you encounter, and use the biome comparison links to keep the challenge context clear."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed in Dark Forest?",
+        "Difficulties 2 and 3 were changed to fewer, stronger enemies in hotfix 0.9.6."
+      ],
+      [
+        "Does fewer enemies mean easier combat?",
+        "Do not judge only by count. Pay attention to the danger of each opponent and whether your usual approach remains comfortable."
+      ],
+      [
+        "Which module roles are useful to consider?",
+        "Compare dependable offense with control or projectile response according to the threat causing trouble in your run."
+      ],
+      [
+        "What is a good learning goal?",
+        "Keep a familiar build and focus on one difficulty or encounter decision before introducing several new equipment choices."
+      ]
+    ],
+    "related": [
+      "/database/biomes/grassland/",
+      "/database/biomes/desert/",
+      "/database/modules/electric-mage/",
+      "/database/modules/force-mage/",
+      "/database/modules/front-barracks/",
+      "/guides/best-build/",
+      "/guides/progression/",
+      "/bosses/"
+    ]
+  },
+  "desert": {
+    "intro": "Desert has an overtime challenge that should be considered separately from an ordinary clear. Prepare for the current encounter first, then decide whether the same setup is comfortable enough for continued survival.",
+    "sections": [
+      {
+        "title": "Desert overview",
+        "paragraphs": [
+          "Desert is a region with an overtime phase. Hotfix 0.9.8 revised Desert overtime, strengthening the Overtime Mortar and changing its projectile flight behavior. For a returning player, the incoming attack pattern is a useful part of the experience to watch again.",
+          "The official image on this page shows a sandy battlefield with a palm-lined oasis and rolling fortresses exchanging fire. Use it for visual orientation while reading the current map for your actual route."
+        ]
+      },
+      {
+        "title": "Normal objectives and overtime",
+        "paragraphs": [
+          "Guide advice: decide whether the goal is an ordinary clear or continued survival before judging your build. A routine that feels sufficient for the normal objective may need another level of consistency when you choose to continue.",
+          "Keep that distinction in comparisons with other players. The same region label can describe attempts with different aims. Ask which part of the run an equipment recommendation addresses before using it to choose your next option."
+        ]
+      },
+      {
+        "title": "Responding to projectile pressure",
+        "paragraphs": [
+          "The Overtime Mortar’s 0.9.8 changes make projectile behavior relevant to preparation. Watch the incoming action and the route you want to take before committing to a familiar timing from an older attempt.",
+          "Force Mage is a module to consider for its projectile-cancellation role. Learn how the action contributes in the encounter and keep a movement alternative. The selection gives you another response to examine; it is not a reason to stop watching the threats that remain afterward."
+        ]
+      },
+      {
+        "title": "Build considerations",
+        "paragraphs": [
+          "Use offense that contributes during the opportunities you can actually create. If the action repeatedly pulls attention away from incoming threats, simplify the routine while learning the encounter. A comfortable sequence can be more useful than an ambitious combination that is hard to apply.",
+          "Side Arm offers automatic and active offense to compare, while Side Ballista places a different emphasis on the active side after its 0.9.9 change. Consider which action pattern leaves you enough attention for driving. These are build choices to explore, not Desert-exclusive advantages."
+        ]
+      },
+      {
+        "title": "Movement and recovery",
+        "paragraphs": [
+          "Plan the route after the attack before using movement resources to reach it. If the target remains dangerous, your next option should not depend entirely on immediately repeating the same committed approach.",
+          "Tankbert’s Nitro-recovery drawback and Duelist’s incoming-damage drawback during boost are relevant character considerations if boosting is central to your plan. Read the full captain rule and learn the movement sequence on a familiar platform before adding another demanding choice."
+        ]
+      },
+      {
+        "title": "Tips and common mistakes",
+        "paragraphs": [
+          "Separate a first clear from an overtime experiment in your own notes. Observe an unfamiliar incoming pattern rather than assuming an old timing still feels the same. After an uncomfortable exchange, identify whether the problem was offense, readiness, or the route left afterward.",
+          "Avoid turning environmental appearance into a build prescription. Prepare for the attacks and situations in the run rather than choosing a damage theme based on sand or palms. Keep the next equipment decision tied to the problem that actually interrupts your current setup."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What changed in Desert overtime?",
+        "Hotfix 0.9.8 strengthened the Overtime Mortar and changed its projectile flight behavior."
+      ],
+      [
+        "Is an ordinary clear the same as overtime survival?",
+        "They are different goals. Decide which one your current build and practice attempt are intended to support."
+      ],
+      [
+        "When should I consider Force Mage here?",
+        "Consider its projectile-control role when incoming shots repeatedly interfere with a useful route or offensive opening."
+      ],
+      [
+        "What should I revisit after an update?",
+        "Watch the incoming pattern and your usual response before assuming an older timing still works comfortably."
+      ]
+    ],
+    "related": [
+      "/database/biomes/grassland/",
+      "/database/biomes/dark-forest/",
+      "/database/modules/force-mage/",
+      "/database/modules/side-arm/",
+      "/database/captains/tankbert/",
+      "/database/captains/duelist/",
+      "/guides/progression/",
+      "/bosses/"
+    ]
+  }
+}

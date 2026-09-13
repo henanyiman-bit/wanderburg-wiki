@@ -1,0 +1,16 @@
+---
+import Icon from '../icons/Icon.astro';
+import {database,categories,categoryURL,entityURL} from '../../lib/data';
+const {type}=Astro.props;
+const records=Object.entries(database).filter(([t])=>!type||type===t).flatMap(([t,items])=>items.map(e=>({...e,type:t})));
+---
+<div data-explorer>
+<div class="filters"><label>Search entries<input type="search" data-filter-search placeholder="Find a entry..."/></label><label>Category<select data-filter-category><option value="">All categories</option>{categories.filter(t=>!type||t===type).map(t=><option value={t}>{t[0].toUpperCase()+t.slice(1)}</option>)}</select></label><label>Sort by<select data-filter-sort><option value="az">Name: A–Z</option><option value="za">Name: Z–A</option><option value="updated">Recently updated</option></select></label></div>
+<p data-result-count role="status">{records.length} entries</p>
+<div class="cards" data-records>{records.map(e=><a class="card" href={entityURL(e.type,e.slug)} data-record data-name={e.name.toLowerCase()} data-type={e.type} data-updated={e.updated}><span class="eyebrow">{e.type}</span><h3>{e.name}</h3><p>{e.summary}</p></a>)}</div>
+<div class="notice" data-empty hidden={records.length>0}><h2>No entries in this selection</h2><p>{type==='weapons'?'Offensive equipment is maintained in Modules so each item has one record. See the linked equipment guide below.':type==='bosses'?'Read the encounter guide below for positioning, ability timing, and survival tips.':'Try a broader search or a different category.'}</p><a class="card-link" href="/guides/">Explore the guides →</a></div>
+<div class="archive-list section">{categories.map(t=><a class="archive-link" href={categoryURL(t)}><Icon name={t}/><span>{t}<small>{database[t].length} entries</small></span></a>)}</div>
+</div>
+<script>
+document.querySelectorAll<HTMLElement>('[data-explorer]').forEach(root=>{const search=root.querySelector<HTMLInputElement>('[data-filter-search]')!;const category=root.querySelector<HTMLSelectElement>('[data-filter-category]')!;const sort=root.querySelector<HTMLSelectElement>('[data-filter-sort]')!;const list=root.querySelector<HTMLElement>('[data-records]')!;const entries=Array.from(list.querySelectorAll<HTMLElement>('[data-record]'));function update(){let count=0;entries.sort((a,b)=>sort.value==='updated'?(b.dataset.updated||'').localeCompare(a.dataset.updated||''):(sort.value==='za'?-1:1)*(a.dataset.name||'').localeCompare(b.dataset.name||'')).forEach(el=>{el.hidden=!(el.dataset.name?.includes(search.value.trim().toLowerCase())&&(!category.value||category.value===el.dataset.type));if(!el.hidden)count++;list.append(el);});root.querySelector('[data-result-count]')!.textContent=count+' entries';root.querySelector<HTMLElement>('[data-empty]')!.hidden=count>0;}search.addEventListener('input',update);category.addEventListener('change',update);sort.addEventListener('change',update);});
+</script>

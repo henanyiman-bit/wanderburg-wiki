@@ -1,0 +1,10 @@
+---
+import embeds from '../../data/adsterra.json';
+// Store publisher-issued embed code verbatim; never guess a network hostname.
+const provider=import.meta.env.PUBLIC_AD_PROVIDER||'none';
+const {format='banner'}=Astro.props as {format?:keyof typeof embeds};
+const keys={banner:import.meta.env.PUBLIC_ADSTERRA_BANNER_KEY,native:import.meta.env.PUBLIC_ADSTERRA_NATIVE_KEY,social:import.meta.env.PUBLIC_ADSTERRA_SOCIAL_BAR_KEY};
+const embed=embeds[format] as string|null;
+const enabled=provider==='adsterra'&&!!keys[format]&&!!embed&&embed.includes(keys[format]);
+---
+{enabled&&<slot/>}

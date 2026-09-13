@@ -1,0 +1,7 @@
+---
+import copy from '../../data/page-content.json';
+interface Section {title:string;paragraphs:string[];links:{label:string;url:string}[];table:{headers:string[];rows:string[][]}|null}
+const {slug}=Astro.props;
+const content=(copy as Record<string,{sections:Section[]}>)[slug];
+---
+{content?.sections.map(section=><section class="step-card"><h2>{section.title}</h2>{section.paragraphs.map(p=><p>{p}</p>)}{section.table&&<div class="table-wrap"><table><thead><tr>{section.table.headers.map(h=><th scope="col">{h}</th>)}</tr></thead><tbody>{section.table.rows.map(row=><tr>{row.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div>}{section.links.length>0&&<div class="content-links">{section.links.map(link=><a href={link.url}>{link.label} →</a>)}</div>}</section>)}

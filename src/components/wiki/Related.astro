@@ -1,0 +1,5 @@
+---
+import {pages} from '../../lib/data';
+const {current=''}=Astro.props;
+---
+<section class="section" id="related"><h2>Continue your expedition</h2><div class="content-links">{pages.filter(p=>p.kind==='guide'&&p.slug!==current).map(p=><a href={'/'+p.slug+'/'}>{p.title.replace('Wanderburg ','')} →</a>)}<a href="/wiki/">Wiki overview →</a><a href="/database/">Database archive →</a></div></section>

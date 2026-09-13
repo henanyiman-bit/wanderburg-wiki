@@ -1,0 +1,17 @@
+import pages from '../data/pages.json';
+import game from '../data/game.json';
+import updates from '../data/updates.json';
+import modules from '../data/database/modules.json';
+import captains from '../data/database/captains.json';
+import artifacts from '../data/database/artifacts.json';
+import weapons from '../data/database/weapons.json';
+import vehicles from '../data/database/vehicles.json';
+import biomes from '../data/database/biomes.json';
+import bosses from '../data/database/bosses.json';
+export {pages,game,updates};
+export type Entity={verifiedVersion?:string;role?:string|null;effect?:string|null;slug:string;name:string;summary:string;source:string;updated:string;stats:Record<string,string|number|null>;howToGet:string|null;uses:string|null;related:string[]};
+export const database:Record<string,Entity[]>={modules,captains,artifacts,weapons,vehicles,biomes,bosses};
+export const categories=Object.keys(database);
+export const entityURL=(type:string,slug:string)=>type==='bosses'?'/bosses/'+slug+'/':'/database/'+type+'/'+slug+'/';
+export const categoryURL=(type:string)=>type==='bosses'?'/bosses/':'/database/'+type+'/';
+export const searchIndex=[...pages.map(p=>({title:p.title,url:'/'+p.slug+'/',description:p.description,type:p.kind})),...Object.entries(database).flatMap(([type,entities])=>entities.map(e=>({title:e.name,url:entityURL(type,e.slug),description:e.summary,type})))];

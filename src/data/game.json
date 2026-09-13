@@ -1,0 +1,29 @@
+{
+  "name": "Wanderburg",
+  "platform": "PC / Steam",
+  "developer": "Randwerk",
+  "publisher": "Sidekick Publishing",
+  "releaseDate": "2026-09-08",
+  "status": "Early Access",
+  "description": "Drive an expanding fortress through a world where settlements and rival castles move too. Consume smaller targets, develop your modules, and prepare for larger encounters.",
+  "updated": "2026-09-13",
+  "sources": [
+    {
+      "url": "https://store.steampowered.com/app/3624140/Wanderburg/",
+      "checked": "2026-09-13"
+    },
+    {
+      "url": "https://www.wanderburg.com/press-kit/",
+      "checked": "2026-09-13"
+    },
+    {
+      "url": "https://www.4gamer.net/games/918/G091858/20260909022/",
+      "checked": "2026-09-13"
+    }
+  ],
+  "genre": "Action roguelike",
+  "gameMode": "Single-player",
+  "engine": "Unity 6",
+  "version": "0.9.10",
+  "introduction": "Wanderburg is a single-player action roguelike developed by Randwerk and published by Sidekick Publishing for Windows PC on Steam. You drive the castle itself: the same structure that carries your weapons also has to turn, pursue targets, and escape danger. Consuming settlements and other smaller targets feeds its growth, while boss victories expand the fortress further. Modules add combat capabilities; captains and artifacts broaden the choices available between runs. This portal connects the game’s systems with practical guides, versioned database records, and concise update coverage."
+}

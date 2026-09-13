@@ -1,0 +1,8 @@
+---
+import embeds from '../../data/adsterra.json';
+const {format='banner',width=320,height=50}=Astro.props as {format?:'banner'|'native';width?:number;height?:number};
+const keys={banner:import.meta.env.PUBLIC_ADSTERRA_BANNER_KEY,native:import.meta.env.PUBLIC_ADSTERRA_NATIVE_KEY};
+const embed=embeds[format] as string|null;
+const enabled=import.meta.env.PUBLIC_AD_PROVIDER==='adsterra'&&!!keys[format]&&!!embed&&embed.includes(keys[format]);
+---
+{enabled&&<aside class="ad-slot" aria-label="Advertisement" style={`width:min(100%,${width}px);min-height:${height+20}px;margin:24px auto`}><small>Advertisement</small><Fragment set:html={embed}/></aside>}

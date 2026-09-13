@@ -1,0 +1,128 @@
+{
+  "credit": "Official Randwerk promotional screenshots from the press-kit archive. Release visuals may differ.",
+  "images": [
+    {
+      "id": "04",
+      "title": "Growing fortress designs",
+      "src": "/images/media/official-04.webp",
+      "srcSmall": "/images/media/official-04-small.webp",
+      "width": 1024,
+      "height": 576,
+      "alt": "Four progressively larger wheeled fortresses with different towers and mounted equipment.",
+      "sourceType": "Official Randwerk press kit",
+      "sourceUrl": "https://www.wanderburg.com/wp-content/uploads/2025/06/Wanderburg_Screenshot_04-1024x576.png",
+      "permissionUrl": "https://www.wanderburg.com/press-kit/",
+      "pageTargets": [
+        "/wiki/",
+        "/guides/progression/",
+        "/database/",
+        "/database/captains/",
+        "/database/artifacts/",
+        "/database/vehicles/",
+        "/tier-list/captains/",
+        "/database/vehicles/tower/",
+        "/database/vehicles/spider/"
+      ],
+      "homeGallery": true,
+      "hero": true
+    },
+    {
+      "id": "07",
+      "title": "Across the fields",
+      "src": "/images/media/official-07.webp",
+      "srcSmall": "/images/media/official-07-small.webp",
+      "width": 1024,
+      "height": 576,
+      "alt": "A mobile castle drives between wheat fields and wheeled windmills, leaving a cleared trail.",
+      "sourceType": "Official Randwerk press kit",
+      "sourceUrl": "https://www.wanderburg.com/wp-content/uploads/2025/06/Wanderburg_Screenshot_07-1024x576.png",
+      "permissionUrl": "https://www.wanderburg.com/press-kit/",
+      "pageTargets": [
+        "/guides/",
+        "/guides/beginner-guide/"
+      ],
+      "homeGallery": true,
+      "hero": false
+    },
+    {
+      "id": "03",
+      "title": "Night-time combat",
+      "src": "/images/media/official-03.webp",
+      "srcSmall": "/images/media/official-03-small.webp",
+      "width": 1024,
+      "height": 576,
+      "alt": "A legged fortress and a wheeled tower exchange projectiles among trees and rings of fire at night.",
+      "sourceType": "Official Randwerk press kit",
+      "sourceUrl": "https://www.wanderburg.com/wp-content/uploads/2025/06/Wanderburg_Screenshot_03-1024x576.png",
+      "permissionUrl": "https://www.wanderburg.com/press-kit/",
+      "pageTargets": [
+        "/database/biomes/"
+      ],
+      "homeGallery": true,
+      "hero": false
+    },
+    {
+      "id": "01",
+      "title": "Desert battlefield",
+      "src": "/images/media/official-01.webp",
+      "srcSmall": "/images/media/official-01-small.webp",
+      "width": 1024,
+      "height": 576,
+      "alt": "Cannon-equipped rolling fortresses exchange fire around a palm-lined oasis.",
+      "sourceType": "Official Randwerk press kit",
+      "sourceUrl": "https://www.wanderburg.com/wp-content/uploads/2025/06/Wanderburg_Screenshot_01-1024x576.png",
+      "permissionUrl": "https://www.wanderburg.com/press-kit/",
+      "pageTargets": [
+        "/database/biomes/",
+        "/database/biomes/desert/"
+      ],
+      "homeGallery": true,
+      "hero": false
+    },
+    {
+      "id": "02",
+      "title": "Fortress battle",
+      "src": "/images/media/official-02.webp",
+      "srcSmall": "/images/media/official-02-small.webp",
+      "width": 1024,
+      "height": 576,
+      "alt": "Large enemy fortresses surround a smaller mobile castle amid arrows and explosions.",
+      "sourceType": "Official Randwerk press kit",
+      "sourceUrl": "https://www.wanderburg.com/wp-content/uploads/2025/06/Wanderburg_Screenshot_02-1024x576.png",
+      "permissionUrl": "https://www.wanderburg.com/press-kit/",
+      "pageTargets": [
+        "/guides/beginner-guide/",
+        "/guides/best-build/",
+        "/database/modules/",
+        "/database/weapons/",
+        "/bosses/",
+        "/tier-list/",
+        "/tier-list/modules/",
+        "/database/modules/front-barracks/",
+        "/database/modules/side-ballista/",
+        "/database/modules/force-mage/",
+        "/database/modules/electric-mage/",
+        "/database/modules/back-turret/",
+        "/database/modules/side-arm/",
+        "/database/modules/ram/",
+        "/database/modules/top-mortar/",
+        "/database/modules/fire-mage/"
+      ],
+      "homeGallery": true,
+      "hero": false
+    }
+  ],
+  "videos": [
+    {
+      "title": "Wanderburg — Official Early Access Launch Trailer",
+      "embedId": "J_4-TAOy1lA",
+      "sourceType": "Official Randwerk YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=J_4-TAOy1lA",
+      "verificationUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814455580",
+      "pageTargets": [
+        "/",
+        "/guides/beginner-guide/"
+      ]
+    }
+  ]
+}

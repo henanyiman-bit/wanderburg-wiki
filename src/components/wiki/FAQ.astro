@@ -1,0 +1,8 @@
+---
+import general from '../../data/faq.json';
+import copy from '../../data/page-content.json';
+const {compact=false,page=''}=Astro.props;
+const local=(copy as Record<string,{faq:string[][]}>)[page]?.faq;
+const questions=local?.length?local:general;
+---
+<div class="faq">{questions.slice(0,compact?3:questions.length).map(([q,a])=><details><summary>{q}</summary><p>{a}</p></details>)}</div>

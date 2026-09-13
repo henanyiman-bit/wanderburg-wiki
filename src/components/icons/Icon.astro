@@ -1,0 +1,5 @@
+---
+const {name='modules'}=Astro.props;
+const paths:Record<string,string>={modules:'M4 10h16v11H4z M3 4h4v6H3z M10 4h4v6h-4z M17 4h4v6h-4z M10 16h4v5',captains:'M7 12V7a5 5 0 0110 0v5 M5 12h14l-2 8H7z M9 15h6 M12 2v6',artifacts:'M12 2l7 7-7 13L5 9z M5 9h14 M12 2v20',weapons:'M3 11l15-6 3 5-15 6z M8 16l-2 5 M16 13l3 7 M8 18h10',vehicles:'M3 6h18v10H3z M5 3v3 M19 3v3 M5 16a3 3 0 106 0 M14 16a3 3 0 106 0',biomes:'M3 20l6-14 5 9 3-6 5 11z M16 4h.01',bosses:'M4 4l5 4h6l5-4-2 14-6 4-6-4z M8 12h2 M14 12h2 M10 17h4',guide:'M4 3h13v17H4z M17 6h3v15H7 M8 7h5 M8 11h5 M8 15h3',builds:'M4 21V11h5v10 M10 21V6h5v15 M16 21V2h5v19',tier:'M4 21V11h5v10 M10 21V3h5v18 M16 21V7h5v14',updates:'M4 5h16v16H4z M8 2v6 M16 2v6 M4 10h16 M8 14h3 M14 14h3',search:'M16 16l6 6 M18 10a8 8 0 11-16 0 8 8 0 0116 0',shield:'M12 2l8 4v7l-8 9-8-9V6z M8 11l3 3 5-6'};
+---
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]||paths.modules}/></svg>

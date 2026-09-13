@@ -1,0 +1,12 @@
+---
+import media from '../../data/media.json';
+import YouTubeFacade from './YouTubeFacade.astro';
+interface Props {page:string;placement?:'page'|'hero'|'gallery'|'video'}
+const {page,placement='page'}=Astro.props;
+const images=media.images.filter(item=>placement==='hero'?item.hero:placement==='gallery'?item.homeGallery:placement==='page'&&item.pageTargets.includes(page));
+const videos=placement==='page'||placement==='video'?media.videos.filter(item=>item.pageTargets.includes(page)):[];
+---
+{placement==='hero'?images.map(item=><figure class="official-hero"><img src={item.src} srcset={`${item.srcSmall} 512w, ${item.src} 1024w`} sizes="(max-width:700px) 100vw, 50vw" alt={item.alt} width={item.width} height={item.height} loading="eager" fetchpriority="high"/><figcaption>Official Randwerk press-kit artwork</figcaption></figure>):(images.length>0||videos.length>0)&&<section class="section page-media" aria-label="Official game media">{images.length>0&&<><h2>{placement==='gallery'?'Wanderburg screenshots':'In-game view'}</h2><p class="media-credit">{media.credit}</p><div class:list={['media-grid',{'media-single':images.length===1}]}>{images.map(item=><figure><img src={item.src} srcset={`${item.srcSmall} 512w, ${item.src} 1024w`} sizes={images.length===1?'(max-width:700px) 100vw, 900px':'(max-width:700px) 100vw, 50vw'} alt={item.alt} width={item.width} height={item.height} loading="lazy" decoding="async"/><figcaption>{item.title}</figcaption></figure>)}</div></>}{videos.map(item=><div class="media-video"><h2>Official launch trailer</h2><p>Published by Randwerk. Choose play to load YouTube.</p><YouTubeFacade videoId={item.embedId} title={item.title}/></div>)}</section>}
+<style>
+figure{margin:0;min-width:0}img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:4px}figcaption{font-size:11px;line-height:1.5;color:#526147;margin-top:7px}.media-credit{font-size:12px}.media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.media-single{grid-template-columns:minmax(0,1fr);max-width:900px}.media-video{margin-top:26px}.official-hero{align-self:center;padding:16px;min-width:0}.official-hero img{object-fit:contain}.official-hero figcaption{font-size:10px}.page-media{min-width:0}@media(max-width:700px){.media-grid{grid-template-columns:minmax(0,1fr)}.official-hero{padding:14px 22px 18px}}
+</style>
